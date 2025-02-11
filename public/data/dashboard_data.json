@@ -29,35 +29,338 @@
     }
   },
   "rate_analysis": {
-    "Very Low": {
-      "view_count": 53651,
-      "claim_count": "1282",
-      "claim_rate": 2.389517436767255,
-      "avg_rate": 20.239538871596057
+    "elasticity": {
+      "rate_elasticity": [
+        {
+          "rate_bucket": "Bucket 1",
+          "total_views": 26727,
+          "total_claims": 629,
+          "avg_rate": 19.497857597186364,
+          "claim_rate": 2.3534253750888614,
+          "elasticity": 0.0
+        },
+        {
+          "rate_bucket": "Bucket 2",
+          "total_views": 26924,
+          "total_claims": 653,
+          "avg_rate": 20.975793344228197,
+          "claim_rate": 2.425345416728569,
+          "elasticity": 0.4031631585288039
+        },
+        {
+          "rate_bucket": "Bucket 3",
+          "total_views": 26448,
+          "total_claims": 894,
+          "avg_rate": 21.574810193587414,
+          "claim_rate": 3.3802177858439206,
+          "elasticity": 13.786406639809536
+        },
+        {
+          "rate_bucket": "Bucket 4",
+          "total_views": 26596,
+          "total_claims": 974,
+          "avg_rate": 21.94444615731689,
+          "claim_rate": 3.6622048428335088,
+          "elasticity": 4.869196002138172
+        },
+        {
+          "rate_bucket": "Bucket 5",
+          "total_views": 26718,
+          "total_claims": 1028,
+          "avg_rate": 22.31799461037503,
+          "claim_rate": 3.8475933827382294,
+          "elasticity": 2.9738422932617947
+        },
+        {
+          "rate_bucket": "Bucket 6",
+          "total_views": 26448,
+          "total_claims": 1165,
+          "avg_rate": 22.81409293708409,
+          "claim_rate": 4.404869933454326,
+          "elasticity": 6.515818914840578
+        },
+        {
+          "rate_bucket": "Bucket 7",
+          "total_views": 26770,
+          "total_claims": 1498,
+          "avg_rate": 23.744129249159506,
+          "claim_rate": 5.5958162121778106,
+          "elasticity": 6.6322728342124995
+        },
+        {
+          "rate_bucket": "Bucket 8",
+          "total_views": 26468,
+          "total_claims": 1343,
+          "avg_rate": 25.147558561281546,
+          "claim_rate": 5.074051685053649,
+          "elasticity": -1.577527040111412
+        },
+        {
+          "rate_bucket": "Bucket 9",
+          "total_views": 26621,
+          "total_claims": 1790,
+          "avg_rate": 27.971556665790168,
+          "claim_rate": 6.724014875474249,
+          "elasticity": 2.895681530599995
+        },
+        {
+          "rate_bucket": "Bucket 10",
+          "total_views": 26620,
+          "total_claims": 3090,
+          "avg_rate": 35.70347257700976,
+          "claim_rate": 11.607813673929376,
+          "elasticity": 2.6275961219447206
+        }
+      ],
+      "avg_elasticity": 3.9126450455224693
     },
-    "High": {
-      "view_count": 53238,
-      "claim_count": "2841",
-      "claim_rate": 5.336413839738532,
-      "avg_rate": 24.441863330703633
+    "optimal_pricing": {
+      "slot_pricing": [
+        {
+          "slot": "am",
+          "is_claimed": false,
+          "avg_rate": 24.379678847444417,
+          "std_rate": 4.665658289184266,
+          "count": 92386,
+          "verified": 0
+        },
+        {
+          "slot": "am",
+          "is_claimed": true,
+          "avg_rate": 26.824805481874446,
+          "std_rate": 5.882164359882455,
+          "count": 4524,
+          "verified": 4370
+        },
+        {
+          "slot": "noc",
+          "is_claimed": false,
+          "avg_rate": 24.159597690049445,
+          "std_rate": 4.838164698501766,
+          "count": 51776,
+          "verified": 0
+        },
+        {
+          "slot": "noc",
+          "is_claimed": true,
+          "avg_rate": 26.208794887401098,
+          "std_rate": 6.141579344317152,
+          "count": 3286,
+          "verified": 3191
+        },
+        {
+          "slot": "pm",
+          "is_claimed": false,
+          "avg_rate": 23.698902432318494,
+          "std_rate": 4.23563487592942,
+          "count": 109114,
+          "verified": 0
+        },
+        {
+          "slot": "pm",
+          "is_claimed": true,
+          "avg_rate": 26.551417967263035,
+          "std_rate": 6.158196813572721,
+          "count": 5254,
+          "verified": 5088
+        }
+      ],
+      "day_pricing": [
+        {
+          "day": "Friday",
+          "is_claimed": false,
+          "avg_rate": 23.46707518543493,
+          "std_rate": 3.9426653825972835,
+          "count": 41524,
+          "verified": 0
+        },
+        {
+          "day": "Friday",
+          "is_claimed": true,
+          "avg_rate": 25.59889341875364,
+          "std_rate": 5.538979824183605,
+          "count": 1717,
+          "verified": 1666
+        },
+        {
+          "day": "Monday",
+          "is_claimed": false,
+          "avg_rate": 24.130372050295687,
+          "std_rate": 4.447723807065818,
+          "count": 34834,
+          "verified": 0
+        },
+        {
+          "day": "Monday",
+          "is_claimed": true,
+          "avg_rate": 26.129461499748363,
+          "std_rate": 5.355476012940267,
+          "count": 1987,
+          "verified": 1932
+        },
+        {
+          "day": "Saturday",
+          "is_claimed": false,
+          "avg_rate": 23.679564268964388,
+          "std_rate": 3.893133858808566,
+          "count": 55011,
+          "verified": 0
+        },
+        {
+          "day": "Saturday",
+          "is_claimed": true,
+          "avg_rate": 25.6656977818854,
+          "std_rate": 5.158735444396689,
+          "count": 2164,
+          "verified": 2103
+        },
+        {
+          "day": "Sunday",
+          "is_claimed": false,
+          "avg_rate": 24.068955151346845,
+          "std_rate": 4.286814289677695,
+          "count": 43212,
+          "verified": 0
+        },
+        {
+          "day": "Sunday",
+          "is_claimed": true,
+          "avg_rate": 26.694554048499793,
+          "std_rate": 5.391569348676522,
+          "count": 2433,
+          "verified": 2354
+        },
+        {
+          "day": "Thursday",
+          "is_claimed": false,
+          "avg_rate": 24.243342002137513,
+          "std_rate": 4.970473028079718,
+          "count": 28070,
+          "verified": 0
+        },
+        {
+          "day": "Thursday",
+          "is_claimed": true,
+          "avg_rate": 26.9109597924773,
+          "std_rate": 6.673310239447809,
+          "count": 1542,
+          "verified": 1483
+        },
+        {
+          "day": "Tuesday",
+          "is_claimed": false,
+          "avg_rate": 24.079223587761206,
+          "std_rate": 4.85888711271553,
+          "count": 27421,
+          "verified": 0
+        },
+        {
+          "day": "Tuesday",
+          "is_claimed": true,
+          "avg_rate": 26.84438831405965,
+          "std_rate": 6.5187304692499906,
+          "count": 1643,
+          "verified": 1585
+        },
+        {
+          "day": "Wednesday",
+          "is_claimed": false,
+          "avg_rate": 25.453153335631786,
+          "std_rate": 5.9911130739435565,
+          "count": 23204,
+          "verified": 0
+        },
+        {
+          "day": "Wednesday",
+          "is_claimed": true,
+          "avg_rate": 28.52704689480355,
+          "std_rate": 7.716917577109543,
+          "count": 1578,
+          "verified": 1526
+        }
+      ]
     },
-    "Low": {
-      "view_count": 53044,
-      "claim_count": "1868",
-      "claim_rate": 3.521604705527487,
-      "avg_rate": 21.760143842847445
+    "margins": {
+      "current_margins": [
+        {
+          "slot": "am",
+          "avg_margin": 5.664142351900972,
+          "std_margin": 6.646500088409857,
+          "margin_percentage": 16.172542819572463,
+          "total_claims": 4524
+        },
+        {
+          "slot": "noc",
+          "avg_margin": 6.146956786366403,
+          "std_margin": 7.123908196790975,
+          "margin_percentage": 17.63638509382046,
+          "total_claims": 3286
+        },
+        {
+          "slot": "pm",
+          "avg_margin": 5.674885801294252,
+          "std_margin": 7.122949424634276,
+          "margin_percentage": 16.13080828822441,
+          "total_claims": 5254
+        }
+      ],
+      "overall_stats": {
+        "avg_margin": 7.346969850566945,
+        "avg_margin_percentage": 21.58552740735187,
+        "margin_std": 6.3611035852295075
+      }
     },
-    "Medium": {
-      "view_count": 53166,
-      "claim_count": "2193",
-      "claim_rate": 4.1248166121205285,
-      "avg_rate": 22.564784072527555
-    },
-    "Very High": {
-      "view_count": 53241,
-      "claim_count": "4880",
-      "claim_rate": 9.165868409684267,
-      "avg_rate": 31.837442008978044
+    "reliability_impact": {
+      "reliability_by_rate": [
+        {
+          "rate_segment": "Very Low",
+          "total_shifts": 2618,
+          "completed_shifts": 2482,
+          "no_shows": 6,
+          "avg_rate": 20.97529411764706,
+          "completion_rate": 94.8051948051948,
+          "no_show_rate": 0.2291825821237586
+        },
+        {
+          "rate_segment": "Low",
+          "total_shifts": 2617,
+          "completed_shifts": 2515,
+          "no_shows": 12,
+          "avg_rate": 22.453332059610243,
+          "completion_rate": 96.10240733664502,
+          "no_show_rate": 0.45854031333588074
+        },
+        {
+          "rate_segment": "Medium",
+          "total_shifts": 2605,
+          "completed_shifts": 2526,
+          "no_shows": 7,
+          "avg_rate": 24.16738195777351,
+          "completion_rate": 96.96737044145874,
+          "no_show_rate": 0.2687140115163148
+        },
+        {
+          "rate_segment": "High",
+          "total_shifts": 2617,
+          "completed_shifts": 2558,
+          "no_shows": 3,
+          "avg_rate": 28.444061902942302,
+          "completion_rate": 97.7455101260986,
+          "no_show_rate": 0.11463507833397019
+        },
+        {
+          "rate_segment": "Very High",
+          "total_shifts": 2607,
+          "completed_shifts": 2568,
+          "no_shows": 3,
+          "avg_rate": 36.78973532796317,
+          "completion_rate": 98.50402761795168,
+          "no_show_rate": 0.11507479861910241
+        }
+      ],
+      "correlation": {
+        "rate_vs_completion": 0.0638538505083943
+      }
     }
   },
   "temporal_analysis": {

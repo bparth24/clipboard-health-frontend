@@ -14,6 +14,9 @@ import DayPatternAnalysis from "./temporal/DayPatternAnalysis";
 import SeasonalAnalysis from "./temporal/SeasonalAnalysis";
 import WorkerLoyalty from "./worker/WorkerLoyalty";
 import ShiftPreferences from "./worker/ShiftPreferences";
+import PriceElasticity from "./rate/PriceElasticity";
+import OptimalPricing from "./rate/OptimalPricing";
+import MarginAnalysis from "./rate/MarginAnalysis";
 
 const Dashboard = () => {
   const [data, setData] = useState(null);
@@ -160,6 +163,15 @@ const Dashboard = () => {
 
         <WorkerLoyalty data={data.worker_analysis.loyalty_analysis} />
         <ShiftPreferences data={data.worker_analysis.preferences} />
+      </div>
+
+      {/* Rate Analysis Section */}
+      <div style={{ marginTop: "40px" }}>
+        <h2 style={{ marginBottom: "20px" }}>Rate Analysis</h2>
+
+        <PriceElasticity data={data.rate_analysis.elasticity} />
+        <OptimalPricing data={data.rate_analysis.optimal_pricing} />
+        <MarginAnalysis data={data.rate_analysis.margins} />
       </div>
     </div>
   );
