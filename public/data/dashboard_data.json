@@ -1,0 +1,678 @@
+{
+  "funnel_metrics": {
+    "view_to_claim_rate": 4.905008635578584,
+    "claim_to_verify_rate": 96.82333129210043,
+    "cancellation_rate": 2.4571341090018373,
+    "no_show_rate": 0.2372933251684017
+  },
+  "slot_metrics": {
+    "pm": {
+      "total_views": 114368,
+      "total_claims": "5254",
+      "claim_rate": 4.59394236149972,
+      "avg_pay_rate": 23.82994535184667,
+      "avg_charge_rate": 31.503558687744825
+    },
+    "am": {
+      "total_views": 96910,
+      "total_claims": "4524",
+      "claim_rate": 4.668248890723352,
+      "avg_pay_rate": 24.49382344443298,
+      "avg_charge_rate": 31.941430192962542
+    },
+    "noc": {
+      "total_views": 55062,
+      "total_claims": "3286",
+      "claim_rate": 5.9678180959645495,
+      "avg_pay_rate": 24.281890051214994,
+      "avg_charge_rate": 30.773273764120447
+    }
+  },
+  "rate_analysis": {
+    "Very Low": {
+      "view_count": 53651,
+      "claim_count": "1282",
+      "claim_rate": 2.389517436767255,
+      "avg_rate": 20.239538871596057
+    },
+    "High": {
+      "view_count": 53238,
+      "claim_count": "2841",
+      "claim_rate": 5.336413839738532,
+      "avg_rate": 24.441863330703633
+    },
+    "Low": {
+      "view_count": 53044,
+      "claim_count": "1868",
+      "claim_rate": 3.521604705527487,
+      "avg_rate": 21.760143842847445
+    },
+    "Medium": {
+      "view_count": 53166,
+      "claim_count": "2193",
+      "claim_rate": 4.1248166121205285,
+      "avg_rate": 22.564784072527555
+    },
+    "Very High": {
+      "view_count": 53241,
+      "claim_count": "4880",
+      "claim_rate": 9.165868409684267,
+      "avg_rate": 31.837442008978044
+    }
+  },
+  "temporal_analysis": {
+    "lead_time_analysis": {
+      "lead_time_conversion": [
+        {
+          "lead_time_bucket": "Very Short",
+          "SHIFT_ID": 53298,
+          "CLAIMED_AT": 1651,
+          "IS_VERIFIED": 1636,
+          "view_to_claim_rate": 3.0976772111523885
+        },
+        {
+          "lead_time_bucket": "Short",
+          "SHIFT_ID": 53363,
+          "CLAIMED_AT": 1439,
+          "IS_VERIFIED": 1422,
+          "view_to_claim_rate": 2.696625002342447
+        },
+        {
+          "lead_time_bucket": "Medium",
+          "SHIFT_ID": 53146,
+          "CLAIMED_AT": 3007,
+          "IS_VERIFIED": 2960,
+          "view_to_claim_rate": 5.657998720505777
+        },
+        {
+          "lead_time_bucket": "Long",
+          "SHIFT_ID": 53271,
+          "CLAIMED_AT": 4340,
+          "IS_VERIFIED": 4178,
+          "view_to_claim_rate": 8.147021831765876
+        },
+        {
+          "lead_time_bucket": "Very Long",
+          "SHIFT_ID": 53262,
+          "CLAIMED_AT": 2627,
+          "IS_VERIFIED": 2453,
+          "view_to_claim_rate": 4.932221846719988
+        }
+      ],
+      "lead_time_stats": {
+        "overall_avg_lead_time": 153.5153194121132,
+        "claimed_avg_lead_time": 161.00256957202149,
+        "verified_avg_lead_time": 156.01340505617483
+      }
+    },
+    "day_patterns": {
+      "daily_patterns": [
+        {
+          "day_of_week": "Friday",
+          "SHIFT_ID": 43241,
+          "CLAIMED_AT": 1717,
+          "IS_VERIFIED": 1666,
+          "success_rate": 3.852824865289887
+        },
+        {
+          "day_of_week": "Monday",
+          "SHIFT_ID": 36821,
+          "CLAIMED_AT": 1987,
+          "IS_VERIFIED": 1932,
+          "success_rate": 5.247005784742402
+        },
+        {
+          "day_of_week": "Saturday",
+          "SHIFT_ID": 57175,
+          "CLAIMED_AT": 2164,
+          "IS_VERIFIED": 2103,
+          "success_rate": 3.678181023174464
+        },
+        {
+          "day_of_week": "Sunday",
+          "SHIFT_ID": 45645,
+          "CLAIMED_AT": 2433,
+          "IS_VERIFIED": 2354,
+          "success_rate": 5.157191368167378
+        },
+        {
+          "day_of_week": "Thursday",
+          "SHIFT_ID": 29612,
+          "CLAIMED_AT": 1542,
+          "IS_VERIFIED": 1483,
+          "success_rate": 5.00810482236931
+        },
+        {
+          "day_of_week": "Tuesday",
+          "SHIFT_ID": 29064,
+          "CLAIMED_AT": 1643,
+          "IS_VERIFIED": 1585,
+          "success_rate": 5.453481970823011
+        },
+        {
+          "day_of_week": "Wednesday",
+          "SHIFT_ID": 24782,
+          "CLAIMED_AT": 1578,
+          "IS_VERIFIED": 1526,
+          "success_rate": 6.157695101283189
+        }
+      ],
+      "hourly_patterns": [
+        {
+          "hour_of_day": 0,
+          "SHIFT_ID": 3116,
+          "CLAIMED_AT": 164,
+          "IS_VERIFIED": 154,
+          "success_rate": 4.942233632862644
+        },
+        {
+          "hour_of_day": 1,
+          "SHIFT_ID": 4290,
+          "CLAIMED_AT": 437,
+          "IS_VERIFIED": 420,
+          "success_rate": 9.79020979020979
+        },
+        {
+          "hour_of_day": 2,
+          "SHIFT_ID": 797,
+          "CLAIMED_AT": 40,
+          "IS_VERIFIED": 38,
+          "success_rate": 4.767879548306149
+        },
+        {
+          "hour_of_day": 3,
+          "SHIFT_ID": 268,
+          "CLAIMED_AT": 21,
+          "IS_VERIFIED": 21,
+          "success_rate": 7.835820895522389
+        },
+        {
+          "hour_of_day": 4,
+          "SHIFT_ID": 197,
+          "CLAIMED_AT": 6,
+          "IS_VERIFIED": 5,
+          "success_rate": 2.5380710659898478
+        },
+        {
+          "hour_of_day": 5,
+          "SHIFT_ID": 16614,
+          "CLAIMED_AT": 972,
+          "IS_VERIFIED": 943,
+          "success_rate": 5.675935957626098
+        },
+        {
+          "hour_of_day": 6,
+          "SHIFT_ID": 29269,
+          "CLAIMED_AT": 1646,
+          "IS_VERIFIED": 1609,
+          "success_rate": 5.497283815641122
+        },
+        {
+          "hour_of_day": 7,
+          "SHIFT_ID": 7601,
+          "CLAIMED_AT": 470,
+          "IS_VERIFIED": 453,
+          "success_rate": 5.959742139192212
+        },
+        {
+          "hour_of_day": 8,
+          "SHIFT_ID": 57,
+          "CLAIMED_AT": 8,
+          "IS_VERIFIED": 7,
+          "success_rate": 12.280701754385964
+        },
+        {
+          "hour_of_day": 9,
+          "SHIFT_ID": 204,
+          "CLAIMED_AT": 5,
+          "IS_VERIFIED": 4,
+          "success_rate": 1.9607843137254901
+        },
+        {
+          "hour_of_day": 10,
+          "SHIFT_ID": 1,
+          "CLAIMED_AT": 1,
+          "IS_VERIFIED": 1,
+          "success_rate": 100.0
+        },
+        {
+          "hour_of_day": 11,
+          "SHIFT_ID": 722,
+          "CLAIMED_AT": 80,
+          "IS_VERIFIED": 80,
+          "success_rate": 11.080332409972298
+        },
+        {
+          "hour_of_day": 12,
+          "SHIFT_ID": 2957,
+          "CLAIMED_AT": 275,
+          "IS_VERIFIED": 269,
+          "success_rate": 9.097057828880622
+        },
+        {
+          "hour_of_day": 13,
+          "SHIFT_ID": 31073,
+          "CLAIMED_AT": 1490,
+          "IS_VERIFIED": 1432,
+          "success_rate": 4.608502558491295
+        },
+        {
+          "hour_of_day": 14,
+          "SHIFT_ID": 46043,
+          "CLAIMED_AT": 1985,
+          "IS_VERIFIED": 1915,
+          "success_rate": 4.159155571965337
+        },
+        {
+          "hour_of_day": 15,
+          "SHIFT_ID": 11939,
+          "CLAIMED_AT": 490,
+          "IS_VERIFIED": 473,
+          "success_rate": 3.9618058463857944
+        },
+        {
+          "hour_of_day": 16,
+          "SHIFT_ID": 1933,
+          "CLAIMED_AT": 95,
+          "IS_VERIFIED": 95,
+          "success_rate": 4.914640455250905
+        },
+        {
+          "hour_of_day": 17,
+          "SHIFT_ID": 666,
+          "CLAIMED_AT": 36,
+          "IS_VERIFIED": 36,
+          "success_rate": 5.405405405405405
+        },
+        {
+          "hour_of_day": 18,
+          "SHIFT_ID": 594,
+          "CLAIMED_AT": 29,
+          "IS_VERIFIED": 29,
+          "success_rate": 4.882154882154882
+        },
+        {
+          "hour_of_day": 19,
+          "SHIFT_ID": 684,
+          "CLAIMED_AT": 59,
+          "IS_VERIFIED": 58,
+          "success_rate": 8.47953216374269
+        },
+        {
+          "hour_of_day": 20,
+          "SHIFT_ID": 271,
+          "CLAIMED_AT": 45,
+          "IS_VERIFIED": 45,
+          "success_rate": 16.605166051660518
+        },
+        {
+          "hour_of_day": 21,
+          "SHIFT_ID": 34745,
+          "CLAIMED_AT": 1269,
+          "IS_VERIFIED": 1221,
+          "success_rate": 3.514174701395884
+        },
+        {
+          "hour_of_day": 22,
+          "SHIFT_ID": 56601,
+          "CLAIMED_AT": 2777,
+          "IS_VERIFIED": 2692,
+          "success_rate": 4.756099715552729
+        },
+        {
+          "hour_of_day": 23,
+          "SHIFT_ID": 15698,
+          "CLAIMED_AT": 664,
+          "IS_VERIFIED": 649,
+          "success_rate": 4.134284622244873
+        }
+      ]
+    },
+    "booking_windows": {
+      "booking_window_analysis": [
+        {
+          "booking_type": "Last Minute (<24h)",
+          "SHIFT_ID": 5045,
+          "IS_VERIFIED": 4990,
+          "booking_window": 6.878405792313623,
+          "completion_rate": 98.90981169474728
+        },
+        {
+          "booking_type": "Medium (24-72h)",
+          "SHIFT_ID": 2563,
+          "IS_VERIFIED": 2498,
+          "booking_window": 45.48829431655612,
+          "completion_rate": 97.46390948107685
+        },
+        {
+          "booking_type": "Advance (>72h)",
+          "SHIFT_ID": 5456,
+          "IS_VERIFIED": 5161,
+          "booking_window": 255.46876160801563,
+          "completion_rate": 94.59310850439883
+        }
+      ],
+      "avg_booking_window": 118.27354706742874,
+      "median_booking_window": 47.81333333333333
+    },
+    "seasonal_trends": {
+      "monthly_trends": [
+        {
+          "month": 1,
+          "SHIFT_ID": 45842,
+          "CLAIMED_AT": 2092,
+          "IS_VERIFIED": 2027,
+          "fill_rate": 4.563500719863881
+        },
+        {
+          "month": 9,
+          "SHIFT_ID": 25054,
+          "CLAIMED_AT": 1107,
+          "IS_VERIFIED": 1074,
+          "fill_rate": 4.418456134748943
+        },
+        {
+          "month": 10,
+          "SHIFT_ID": 78101,
+          "CLAIMED_AT": 3635,
+          "IS_VERIFIED": 3517,
+          "fill_rate": 4.654229779388229
+        },
+        {
+          "month": 11,
+          "SHIFT_ID": 57329,
+          "CLAIMED_AT": 2936,
+          "IS_VERIFIED": 2856,
+          "fill_rate": 5.121317308866368
+        },
+        {
+          "month": 12,
+          "SHIFT_ID": 60014,
+          "CLAIMED_AT": 3294,
+          "IS_VERIFIED": 3175,
+          "fill_rate": 5.488719298830273
+        }
+      ],
+      "weekly_trends": [
+        {
+          "week_of_year": 1,
+          "SHIFT_ID": 16713,
+          "CLAIMED_AT": 898,
+          "IS_VERIFIED": 867,
+          "fill_rate": 5.373062885179202
+        },
+        {
+          "week_of_year": 2,
+          "SHIFT_ID": 17083,
+          "CLAIMED_AT": 696,
+          "IS_VERIFIED": 673,
+          "fill_rate": 4.074225838552947
+        },
+        {
+          "week_of_year": 3,
+          "SHIFT_ID": 13872,
+          "CLAIMED_AT": 648,
+          "IS_VERIFIED": 631,
+          "fill_rate": 4.671280276816609
+        },
+        {
+          "week_of_year": 4,
+          "SHIFT_ID": 2271,
+          "CLAIMED_AT": 107,
+          "IS_VERIFIED": 102,
+          "fill_rate": 4.711580801409071
+        },
+        {
+          "week_of_year": 38,
+          "SHIFT_ID": 3127,
+          "CLAIMED_AT": 173,
+          "IS_VERIFIED": 166,
+          "fill_rate": 5.532459226095298
+        },
+        {
+          "week_of_year": 39,
+          "SHIFT_ID": 19819,
+          "CLAIMED_AT": 818,
+          "IS_VERIFIED": 795,
+          "fill_rate": 4.127352540491447
+        },
+        {
+          "week_of_year": 40,
+          "SHIFT_ID": 18395,
+          "CLAIMED_AT": 835,
+          "IS_VERIFIED": 818,
+          "fill_rate": 4.539276977439521
+        },
+        {
+          "week_of_year": 41,
+          "SHIFT_ID": 19855,
+          "CLAIMED_AT": 910,
+          "IS_VERIFIED": 880,
+          "fill_rate": 4.583228405943087
+        },
+        {
+          "week_of_year": 42,
+          "SHIFT_ID": 15936,
+          "CLAIMED_AT": 845,
+          "IS_VERIFIED": 818,
+          "fill_rate": 5.30245983935743
+        },
+        {
+          "week_of_year": 43,
+          "SHIFT_ID": 15542,
+          "CLAIMED_AT": 762,
+          "IS_VERIFIED": 727,
+          "fill_rate": 4.902843906833097
+        },
+        {
+          "week_of_year": 44,
+          "SHIFT_ID": 20228,
+          "CLAIMED_AT": 776,
+          "IS_VERIFIED": 753,
+          "fill_rate": 3.8362665612022937
+        },
+        {
+          "week_of_year": 45,
+          "SHIFT_ID": 14169,
+          "CLAIMED_AT": 684,
+          "IS_VERIFIED": 671,
+          "fill_rate": 4.827440186322253
+        },
+        {
+          "week_of_year": 46,
+          "SHIFT_ID": 11924,
+          "CLAIMED_AT": 679,
+          "IS_VERIFIED": 658,
+          "fill_rate": 5.6943978530694395
+        },
+        {
+          "week_of_year": 47,
+          "SHIFT_ID": 10903,
+          "CLAIMED_AT": 627,
+          "IS_VERIFIED": 613,
+          "fill_rate": 5.750710813537559
+        },
+        {
+          "week_of_year": 48,
+          "SHIFT_ID": 12265,
+          "CLAIMED_AT": 695,
+          "IS_VERIFIED": 670,
+          "fill_rate": 5.666530778638402
+        },
+        {
+          "week_of_year": 49,
+          "SHIFT_ID": 9058,
+          "CLAIMED_AT": 626,
+          "IS_VERIFIED": 607,
+          "fill_rate": 6.911017884742769
+        },
+        {
+          "week_of_year": 50,
+          "SHIFT_ID": 14162,
+          "CLAIMED_AT": 670,
+          "IS_VERIFIED": 649,
+          "fill_rate": 4.730970201948877
+        },
+        {
+          "week_of_year": 51,
+          "SHIFT_ID": 11292,
+          "CLAIMED_AT": 682,
+          "IS_VERIFIED": 658,
+          "fill_rate": 6.039674105561459
+        },
+        {
+          "week_of_year": 52,
+          "SHIFT_ID": 19726,
+          "CLAIMED_AT": 933,
+          "IS_VERIFIED": 893,
+          "fill_rate": 4.7297982358308825
+        }
+      ]
+    }
+  },
+  "worker_analysis": {
+    "loyalty_analysis": {
+      "worker_segments": {
+        "Low": {
+          "WORKER_ID": 2832,
+          "claim_rate": 0.1765536723163842,
+          "reliability_score": 100.0
+        },
+        "Medium": {
+          "WORKER_ID": 2396,
+          "claim_rate": 0.4944252325304078,
+          "reliability_score": 81.53153153153153
+        },
+        "High": {
+          "WORKER_ID": 2533,
+          "claim_rate": 1.084669389117387,
+          "reliability_score": 92.58879343171161
+        },
+        "Very High": {
+          "WORKER_ID": 2530,
+          "claim_rate": 4.829034064492555,
+          "reliability_score": 94.81325887066272
+        }
+      },
+      "overall_stats": {
+        "total_active_workers": 10291,
+        "avg_shifts_per_worker": 1.2694587503643961,
+        "avg_reliability_score": 94.15682752694336
+      }
+    },
+    "preferences": {
+      "slot_preferences": [
+        {
+          "slot": "am",
+          "worker_count": 4524,
+          "avg_pay_rate": 26.824805481874446,
+          "median_pay_rate": 24.45
+        },
+        {
+          "slot": "noc",
+          "worker_count": 3286,
+          "avg_pay_rate": 26.208794887401098,
+          "median_pay_rate": 23.7
+        },
+        {
+          "slot": "pm",
+          "worker_count": 5254,
+          "avg_pay_rate": 26.551417967263035,
+          "median_pay_rate": 24.06
+        }
+      ],
+      "rate_preferences": [
+        {
+          "rate_bucket": "Very Low",
+          "total_views": 53651,
+          "total_claims": 1282,
+          "verified_shifts": 1211,
+          "conversion_rate": 2.389517436767255
+        },
+        {
+          "rate_bucket": "Low",
+          "total_views": 53044,
+          "total_claims": 1868,
+          "verified_shifts": 1779,
+          "conversion_rate": 3.521604705527487
+        },
+        {
+          "rate_bucket": "Medium",
+          "total_views": 53166,
+          "total_claims": 2193,
+          "verified_shifts": 2110,
+          "conversion_rate": 4.1248166121205285
+        },
+        {
+          "rate_bucket": "High",
+          "total_views": 53238,
+          "total_claims": 2841,
+          "verified_shifts": 2759,
+          "conversion_rate": 5.336413839738532
+        },
+        {
+          "rate_bucket": "Very High",
+          "total_views": 53241,
+          "total_claims": 4880,
+          "verified_shifts": 4790,
+          "conversion_rate": 9.165868409684267
+        }
+      ]
+    },
+    "reliability": {
+      "reliability_segments": [
+        {
+          "reliability_segment": "Low",
+          "WORKER_ID": 36,
+          "completion_rate": 0.0,
+          "ncns_rate": 9.25925925925926,
+          "cancellation_rate": 50.0
+        },
+        {
+          "reliability_segment": "Medium",
+          "WORKER_ID": 19,
+          "completion_rate": 46.40044166359956,
+          "ncns_rate": 3.110047846889952,
+          "cancellation_rate": 20.148448043184885
+        },
+        {
+          "reliability_segment": "High",
+          "WORKER_ID": 37,
+          "completion_rate": 68.86917136917137,
+          "ncns_rate": 1.6666666666666665,
+          "cancellation_rate": 12.938900438900438
+        },
+        {
+          "reliability_segment": "Very High",
+          "WORKER_ID": 1200,
+          "completion_rate": 98.7473245985843,
+          "ncns_rate": 0.12931542500040952,
+          "cancellation_rate": 1.5547926146027073
+        }
+      ],
+      "overall_reliability": {
+        "avg_completion_rate": 94.37040034873752,
+        "avg_ncns_rate": 0.47157075781068153,
+        "avg_cancellation_rate": 3.5041106552500603
+      }
+    },
+    "scheduling": {
+      "interval_stats": {
+        "count": 11393.0,
+        "mean": 118.77612627636852,
+        "std": 218.5164637400411,
+        "min": 0.0,
+        "25%": 24.0,
+        "50%": 48.0,
+        "75%": 120.0,
+        "max": 2713.0
+      },
+      "interval_distribution": {
+        "<24h": 36.27824545857333,
+        ">72h": 36.27824545857333,
+        "24-48h": 17.306158617634026,
+        "48-72h": 10.137350465219317
+      }
+    }
+  }
+}
