@@ -20,6 +20,9 @@ import MarginAnalysis from "./rate/MarginAnalysis";
 import FacilitySuccessRates from "./workplace/FacilitySuccessRates";
 import CancellationPatterns from "./workplace/CancellationPatterns";
 import PostingStrategies from "./workplace/PostingStrategies";
+import DurationImpact from "./shift/DurationImpact";
+import SlotPatterns from "./shift/SlotPatterns";
+import TimingAnalysis from "./shift/TimingAnalysis";
 
 const Dashboard = () => {
   const [data, setData] = useState(null);
@@ -198,6 +201,19 @@ const Dashboard = () => {
         <CancellationPatterns data={data.workplace_analysis.cancellations} />
         <PostingStrategies data={data.workplace_analysis.posting_strategies} />
       </div>
+
+      {/* Shift Characteristics Section */}
+      {data?.shift_analysis && (
+        <div style={{ marginTop: "40px" }}>
+          <h2 style={{ marginBottom: "20px" }}>
+            Shift Characteristics Analysis
+          </h2>
+
+          <DurationImpact data={data.shift_analysis.duration_impact} />
+          <SlotPatterns data={data.shift_analysis.slot_patterns} />
+          <TimingAnalysis data={data.shift_analysis.timing_optimization} />
+        </div>
+      )}
     </div>
   );
 };

@@ -8290,5 +8290,452 @@
         "median_lead_time": 22.970833333333335
       }
     }
+  },
+  "shift_analysis": {
+    "duration_impact": {
+      "duration_metrics": [
+        {
+          "duration_bucket": "Short",
+          "SHIFT_ID": 2390,
+          "is_claimed": 108,
+          "is_completed": 100,
+          "DURATION": 3.798326359832636,
+          "PAY_RATE": 25.78465271966527,
+          "fill_rate": 4.518828451882846,
+          "completion_rate": 92.5925925925926
+        },
+        {
+          "duration_bucket": "Medium",
+          "SHIFT_ID": 248480,
+          "is_claimed": 11633,
+          "is_completed": 11280,
+          "DURATION": 8.158982614294914,
+          "PAY_RATE": 23.907692369607215,
+          "fill_rate": 4.681664520283323,
+          "completion_rate": 96.96552909825496
+        },
+        {
+          "duration_bucket": "Long",
+          "SHIFT_ID": 15417,
+          "is_claimed": 1316,
+          "is_completed": 1262,
+          "DURATION": 11.969903353441007,
+          "PAY_RATE": 28.039929298825975,
+          "fill_rate": 8.536031653369657,
+          "completion_rate": 95.8966565349544
+        },
+        {
+          "duration_bucket": "Very Long",
+          "SHIFT_ID": 53,
+          "is_claimed": 7,
+          "is_completed": 7,
+          "DURATION": 16.79245283018868,
+          "PAY_RATE": 29.976226415094338,
+          "fill_rate": 13.20754716981132,
+          "completion_rate": 100.0
+        }
+      ],
+      "correlation": {
+        "duration_vs_fill_rate": 0.021683640989498935
+      }
+    },
+    "slot_patterns": {
+      "slot_metrics": [
+        {
+          "SLOT": "am",
+          "SHIFT_ID": 96910,
+          "is_claimed": 4524,
+          "is_completed": 4370,
+          "DURATION": 8.445165617583324,
+          "PAY_RATE": 24.49382344443298,
+          "fill_rate": 4.668248890723352,
+          "completion_rate": 96.59593280282935
+        },
+        {
+          "SLOT": "noc",
+          "SHIFT_ID": 55062,
+          "is_claimed": 3286,
+          "is_completed": 3191,
+          "DURATION": 8.291217173368203,
+          "PAY_RATE": 24.281890051214994,
+          "fill_rate": 5.9678180959645495,
+          "completion_rate": 97.10894704808277
+        },
+        {
+          "SLOT": "pm",
+          "SHIFT_ID": 114368,
+          "is_claimed": 5254,
+          "is_completed": 5088,
+          "DURATION": 8.279413822048125,
+          "PAY_RATE": 23.82994535184667,
+          "fill_rate": 4.59394236149972,
+          "completion_rate": 96.8405024743053
+        }
+      ],
+      "slot_day_patterns": [
+        {
+          "SLOT": "am",
+          "day_of_week": "Friday",
+          "SHIFT_ID": 15149,
+          "is_claimed": 598,
+          "fill_rate": 3.947455277576078
+        },
+        {
+          "SLOT": "am",
+          "day_of_week": "Monday",
+          "SHIFT_ID": 14353,
+          "is_claimed": 695,
+          "fill_rate": 4.842193269699714
+        },
+        {
+          "SLOT": "am",
+          "day_of_week": "Saturday",
+          "SHIFT_ID": 17760,
+          "is_claimed": 787,
+          "fill_rate": 4.431306306306306
+        },
+        {
+          "SLOT": "am",
+          "day_of_week": "Sunday",
+          "SHIFT_ID": 17529,
+          "is_claimed": 928,
+          "fill_rate": 5.294084089223572
+        },
+        {
+          "SLOT": "am",
+          "day_of_week": "Thursday",
+          "SHIFT_ID": 11042,
+          "is_claimed": 478,
+          "fill_rate": 4.328925919217533
+        },
+        {
+          "SLOT": "am",
+          "day_of_week": "Tuesday",
+          "SHIFT_ID": 11751,
+          "is_claimed": 531,
+          "fill_rate": 4.518764360479959
+        },
+        {
+          "SLOT": "am",
+          "day_of_week": "Wednesday",
+          "SHIFT_ID": 9326,
+          "is_claimed": 507,
+          "fill_rate": 5.436414325541497
+        },
+        {
+          "SLOT": "noc",
+          "day_of_week": "Friday",
+          "SHIFT_ID": 6586,
+          "is_claimed": 407,
+          "fill_rate": 6.179775280898876
+        },
+        {
+          "SLOT": "noc",
+          "day_of_week": "Monday",
+          "SHIFT_ID": 9773,
+          "is_claimed": 499,
+          "fill_rate": 5.105904021283127
+        },
+        {
+          "SLOT": "noc",
+          "day_of_week": "Saturday",
+          "SHIFT_ID": 11728,
+          "is_claimed": 474,
+          "fill_rate": 4.041609822646658
+        },
+        {
+          "SLOT": "noc",
+          "day_of_week": "Sunday",
+          "SHIFT_ID": 12083,
+          "is_claimed": 643,
+          "fill_rate": 5.321526111065133
+        },
+        {
+          "SLOT": "noc",
+          "day_of_week": "Thursday",
+          "SHIFT_ID": 3928,
+          "is_claimed": 377,
+          "fill_rate": 9.59775967413442
+        },
+        {
+          "SLOT": "noc",
+          "day_of_week": "Tuesday",
+          "SHIFT_ID": 5741,
+          "is_claimed": 443,
+          "fill_rate": 7.716425709806654
+        },
+        {
+          "SLOT": "noc",
+          "day_of_week": "Wednesday",
+          "SHIFT_ID": 5223,
+          "is_claimed": 443,
+          "fill_rate": 8.481715489182463
+        },
+        {
+          "SLOT": "pm",
+          "day_of_week": "Friday",
+          "SHIFT_ID": 21506,
+          "is_claimed": 712,
+          "fill_rate": 3.3107039895843022
+        },
+        {
+          "SLOT": "pm",
+          "day_of_week": "Monday",
+          "SHIFT_ID": 12695,
+          "is_claimed": 793,
+          "fill_rate": 6.246553761323356
+        },
+        {
+          "SLOT": "pm",
+          "day_of_week": "Saturday",
+          "SHIFT_ID": 27687,
+          "is_claimed": 903,
+          "fill_rate": 3.2614584462021887
+        },
+        {
+          "SLOT": "pm",
+          "day_of_week": "Sunday",
+          "SHIFT_ID": 16033,
+          "is_claimed": 862,
+          "fill_rate": 5.376411151999002
+        },
+        {
+          "SLOT": "pm",
+          "day_of_week": "Thursday",
+          "SHIFT_ID": 14642,
+          "is_claimed": 687,
+          "fill_rate": 4.691981969676274
+        },
+        {
+          "SLOT": "pm",
+          "day_of_week": "Tuesday",
+          "SHIFT_ID": 11572,
+          "is_claimed": 669,
+          "fill_rate": 5.781195990321466
+        },
+        {
+          "SLOT": "pm",
+          "day_of_week": "Wednesday",
+          "SHIFT_ID": 10233,
+          "is_claimed": 628,
+          "fill_rate": 6.137007720121177
+        }
+      ]
+    },
+    "timing_optimization": {
+      "hourly_patterns": [
+        {
+          "hour_of_day": 0,
+          "SHIFT_ID": 3116,
+          "is_claimed": 164,
+          "is_completed": 154,
+          "success_rate": 4.942233632862644
+        },
+        {
+          "hour_of_day": 1,
+          "SHIFT_ID": 4290,
+          "is_claimed": 437,
+          "is_completed": 420,
+          "success_rate": 9.79020979020979
+        },
+        {
+          "hour_of_day": 2,
+          "SHIFT_ID": 797,
+          "is_claimed": 40,
+          "is_completed": 38,
+          "success_rate": 4.767879548306149
+        },
+        {
+          "hour_of_day": 3,
+          "SHIFT_ID": 268,
+          "is_claimed": 21,
+          "is_completed": 21,
+          "success_rate": 7.835820895522389
+        },
+        {
+          "hour_of_day": 4,
+          "SHIFT_ID": 197,
+          "is_claimed": 6,
+          "is_completed": 5,
+          "success_rate": 2.5380710659898478
+        },
+        {
+          "hour_of_day": 5,
+          "SHIFT_ID": 16614,
+          "is_claimed": 972,
+          "is_completed": 943,
+          "success_rate": 5.675935957626098
+        },
+        {
+          "hour_of_day": 6,
+          "SHIFT_ID": 29269,
+          "is_claimed": 1646,
+          "is_completed": 1609,
+          "success_rate": 5.497283815641122
+        },
+        {
+          "hour_of_day": 7,
+          "SHIFT_ID": 7601,
+          "is_claimed": 470,
+          "is_completed": 453,
+          "success_rate": 5.959742139192212
+        },
+        {
+          "hour_of_day": 8,
+          "SHIFT_ID": 57,
+          "is_claimed": 8,
+          "is_completed": 7,
+          "success_rate": 12.280701754385964
+        },
+        {
+          "hour_of_day": 9,
+          "SHIFT_ID": 204,
+          "is_claimed": 5,
+          "is_completed": 4,
+          "success_rate": 1.9607843137254901
+        },
+        {
+          "hour_of_day": 10,
+          "SHIFT_ID": 1,
+          "is_claimed": 1,
+          "is_completed": 1,
+          "success_rate": 100.0
+        },
+        {
+          "hour_of_day": 11,
+          "SHIFT_ID": 722,
+          "is_claimed": 80,
+          "is_completed": 80,
+          "success_rate": 11.080332409972298
+        },
+        {
+          "hour_of_day": 12,
+          "SHIFT_ID": 2957,
+          "is_claimed": 275,
+          "is_completed": 269,
+          "success_rate": 9.097057828880622
+        },
+        {
+          "hour_of_day": 13,
+          "SHIFT_ID": 31073,
+          "is_claimed": 1490,
+          "is_completed": 1432,
+          "success_rate": 4.608502558491295
+        },
+        {
+          "hour_of_day": 14,
+          "SHIFT_ID": 46043,
+          "is_claimed": 1985,
+          "is_completed": 1915,
+          "success_rate": 4.159155571965337
+        },
+        {
+          "hour_of_day": 15,
+          "SHIFT_ID": 11939,
+          "is_claimed": 490,
+          "is_completed": 473,
+          "success_rate": 3.9618058463857944
+        },
+        {
+          "hour_of_day": 16,
+          "SHIFT_ID": 1933,
+          "is_claimed": 95,
+          "is_completed": 95,
+          "success_rate": 4.914640455250905
+        },
+        {
+          "hour_of_day": 17,
+          "SHIFT_ID": 666,
+          "is_claimed": 36,
+          "is_completed": 36,
+          "success_rate": 5.405405405405405
+        },
+        {
+          "hour_of_day": 18,
+          "SHIFT_ID": 594,
+          "is_claimed": 29,
+          "is_completed": 29,
+          "success_rate": 4.882154882154882
+        },
+        {
+          "hour_of_day": 19,
+          "SHIFT_ID": 684,
+          "is_claimed": 59,
+          "is_completed": 58,
+          "success_rate": 8.47953216374269
+        },
+        {
+          "hour_of_day": 20,
+          "SHIFT_ID": 271,
+          "is_claimed": 45,
+          "is_completed": 45,
+          "success_rate": 16.605166051660518
+        },
+        {
+          "hour_of_day": 21,
+          "SHIFT_ID": 34745,
+          "is_claimed": 1269,
+          "is_completed": 1221,
+          "success_rate": 3.514174701395884
+        },
+        {
+          "hour_of_day": 22,
+          "SHIFT_ID": 56601,
+          "is_claimed": 2777,
+          "is_completed": 2692,
+          "success_rate": 4.756099715552729
+        },
+        {
+          "hour_of_day": 23,
+          "SHIFT_ID": 15698,
+          "is_claimed": 664,
+          "is_completed": 649,
+          "success_rate": 4.134284622244873
+        }
+      ],
+      "advance_notice_impact": [
+        {
+          "notice_bucket": "Very Short",
+          "SHIFT_ID": 66610,
+          "is_claimed": 2000,
+          "is_completed": 1983,
+          "advance_notice": 3.0642512594038265,
+          "fill_rate": 3.0025521693439425
+        },
+        {
+          "notice_bucket": "Short",
+          "SHIFT_ID": 66564,
+          "is_claimed": 1693,
+          "is_completed": 1670,
+          "advance_notice": 14.36160653239322,
+          "fill_rate": 2.54341686196743
+        },
+        {
+          "notice_bucket": "Medium",
+          "SHIFT_ID": 66652,
+          "is_claimed": 5789,
+          "is_completed": 5622,
+          "advance_notice": 86.19072356751818,
+          "fill_rate": 8.685410790373883
+        },
+        {
+          "notice_bucket": "Long",
+          "SHIFT_ID": 66514,
+          "is_claimed": 3582,
+          "is_completed": 3374,
+          "advance_notice": 510.9061297078643,
+          "fill_rate": 5.385332411221698
+        }
+      ],
+      "timing_stats": {
+        "avg_advance_notice": 153.5153194121132,
+        "median_advance_notice": 22.970833333333335
+      }
+    },
+    "bundle_analysis": {
+      "total_consecutive_shifts": 4405,
+      "avg_time_between_shifts": 116.9677970325065,
+      "bundle_rate": 33.71861604409063
+    }
   }
 }
