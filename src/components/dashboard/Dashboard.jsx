@@ -17,26 +17,42 @@ import ShiftPreferences from "./worker/ShiftPreferences";
 import PriceElasticity from "./rate/PriceElasticity";
 import OptimalPricing from "./rate/OptimalPricing";
 import MarginAnalysis from "./rate/MarginAnalysis";
+import FacilitySuccessRates from "./workplace/FacilitySuccessRates";
+import CancellationPatterns from "./workplace/CancellationPatterns";
+import PostingStrategies from "./workplace/PostingStrategies";
 
 const Dashboard = () => {
   const [data, setData] = useState(null);
   const [loading, setLoading] = useState(true);
+  const [error, setError] = useState(null);
 
   useEffect(() => {
-    fetch("/data/dashboard_data.json")
-      .then((response) => response.json())
-      .then((data) => {
-        setData(data);
+    const fetchData = async () => {
+      try {
+        const response = await fetch("/data/dashboard_data.json");
+        if (!response.ok) {
+          throw new Error("Failed to fetch data");
+        }
+        const jsonData = await response.json();
+        console.log("Loaded data:", jsonData); // Debug log
+        setData(jsonData);
+      } catch (err) {
+        console.error("Error loading data:", err);
+        setError(err.message);
+      } finally {
         setLoading(false);
-      })
-      .catch((error) => {
-        console.error("Error loading data:", error);
-        setLoading(false);
-      });
+      }
+    };
+
+    fetchData();
   }, []);
 
   if (loading) {
     return <div style={{ padding: "20px" }}>Loading dashboard data...</div>;
+  }
+
+  if (error) {
+    return <div style={{ padding: "20px", color: "red" }}>Error: {error}</div>;
   }
 
   // Transform slot metrics for chart
@@ -172,6 +188,15 @@ const Dashboard = () => {
         <PriceElasticity data={data.rate_analysis.elasticity} />
         <OptimalPricing data={data.rate_analysis.optimal_pricing} />
         <MarginAnalysis data={data.rate_analysis.margins} />
+      </div>
+
+      {/* Workplace Analysis Section */}
+      <div style={{ marginTop: "40px" }}>
+        <h2 style={{ marginBottom: "20px" }}>Workplace Analysis</h2>
+
+        <FacilitySuccessRates data={data.workplace_analysis.success_rates} />
+        <CancellationPatterns data={data.workplace_analysis.cancellations} />
+        <PostingStrategies data={data.workplace_analysis.posting_strategies} />
       </div>
     </div>
   );
