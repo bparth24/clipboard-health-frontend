@@ -9268,5 +9268,1501 @@
         "max": 100.0
       }
     }
+  },
+  "growth_analysis": {
+    "growth_trends": {
+      "monthly_trends": [
+        {
+          "month": "2024-09",
+          "total_shifts": 25054,
+          "filled_shifts": 1107,
+          "completed_shifts": 1074,
+          "unique_workers": 4390,
+          "unique_workplaces": 93,
+          "avg_rate": 23.58557555679732,
+          "fill_rate": 4.418456134748943,
+          "shift_growth": 0.0,
+          "worker_growth": 0.0
+        },
+        {
+          "month": "2024-10",
+          "total_shifts": 78101,
+          "filled_shifts": 3635,
+          "completed_shifts": 3517,
+          "unique_workers": 6340,
+          "unique_workplaces": 103,
+          "avg_rate": 23.86801654268191,
+          "fill_rate": 4.654229779388229,
+          "shift_growth": 211.73066177057555,
+          "worker_growth": 44.41913439635534
+        },
+        {
+          "month": "2024-11",
+          "total_shifts": 57329,
+          "filled_shifts": 2936,
+          "completed_shifts": 2856,
+          "unique_workers": 6132,
+          "unique_workplaces": 93,
+          "avg_rate": 24.100322175513266,
+          "fill_rate": 5.121317308866368,
+          "shift_growth": -26.596330392696633,
+          "worker_growth": -3.2807570977917977
+        },
+        {
+          "month": "2024-12",
+          "total_shifts": 60014,
+          "filled_shifts": 3294,
+          "completed_shifts": 3175,
+          "unique_workers": 6166,
+          "unique_workplaces": 108,
+          "avg_rate": 24.569794381311027,
+          "fill_rate": 5.488719298830273,
+          "shift_growth": 4.683493519859061,
+          "worker_growth": 0.5544683626875324
+        },
+        {
+          "month": "2025-01",
+          "total_shifts": 45842,
+          "filled_shifts": 2092,
+          "completed_shifts": 2027,
+          "unique_workers": 5742,
+          "unique_workplaces": 94,
+          "avg_rate": 24.53821975481,
+          "fill_rate": 4.563500719863881,
+          "shift_growth": -23.614489952344453,
+          "worker_growth": -6.876419072332141
+        }
+      ],
+      "overall_growth": {
+        "total_shifts": 266340,
+        "total_workers": 5742,
+        "total_workplaces": 94,
+        "avg_monthly_growth": 33.240666989078704
+      }
+    },
+    "supply_demand": {
+      "daily_balance": [
+        {
+          "date": "2024-09-22",
+          "total_shifts": 3127,
+          "filled_shifts": 173,
+          "unique_workers": 1608,
+          "avg_rate": 23.875225455708346,
+          "rate_std": 4.482484209502237,
+          "supply_demand_ratio": 0.05532459226095299
+        },
+        {
+          "date": "2024-09-23",
+          "total_shifts": 2412,
+          "filled_shifts": 146,
+          "unique_workers": 1392,
+          "avg_rate": 23.44909618573798,
+          "rate_std": 4.337176554920779,
+          "supply_demand_ratio": 0.06053067993366501
+        },
+        {
+          "date": "2024-09-24",
+          "total_shifts": 2021,
+          "filled_shifts": 78,
+          "unique_workers": 1329,
+          "avg_rate": 23.51772389905987,
+          "rate_std": 3.295289867651909,
+          "supply_demand_ratio": 0.03859475507174666
+        },
+        {
+          "date": "2024-09-25",
+          "total_shifts": 1813,
+          "filled_shifts": 84,
+          "unique_workers": 1145,
+          "avg_rate": 23.576100386100386,
+          "rate_std": 3.7202034120466014,
+          "supply_demand_ratio": 0.04633204633204633
+        },
+        {
+          "date": "2024-09-26",
+          "total_shifts": 2091,
+          "filled_shifts": 102,
+          "unique_workers": 1250,
+          "avg_rate": 22.730473457675753,
+          "rate_std": 4.657466127914231,
+          "supply_demand_ratio": 0.04878048780487805
+        },
+        {
+          "date": "2024-09-27",
+          "total_shifts": 3253,
+          "filled_shifts": 112,
+          "unique_workers": 1596,
+          "avg_rate": 22.407556102059637,
+          "rate_std": 3.361461935542241,
+          "supply_demand_ratio": 0.03442975714724869
+        },
+        {
+          "date": "2024-09-28",
+          "total_shifts": 5055,
+          "filled_shifts": 133,
+          "unique_workers": 2192,
+          "avg_rate": 23.176876360039564,
+          "rate_std": 3.615880206414457,
+          "supply_demand_ratio": 0.026310583580613254
+        },
+        {
+          "date": "2024-09-29",
+          "total_shifts": 3174,
+          "filled_shifts": 163,
+          "unique_workers": 1715,
+          "avg_rate": 24.573689350976686,
+          "rate_std": 4.708695501994945,
+          "supply_demand_ratio": 0.05135475740390674
+        },
+        {
+          "date": "2024-09-30",
+          "total_shifts": 2108,
+          "filled_shifts": 116,
+          "unique_workers": 1303,
+          "avg_rate": 25.543629032258064,
+          "rate_std": 5.706564240703127,
+          "supply_demand_ratio": 0.05502846299810247
+        },
+        {
+          "date": "2024-10-01",
+          "total_shifts": 1809,
+          "filled_shifts": 104,
+          "unique_workers": 1209,
+          "avg_rate": 23.665942509673854,
+          "rate_std": 3.793627663684898,
+          "supply_demand_ratio": 0.05749032614704257
+        },
+        {
+          "date": "2024-10-02",
+          "total_shifts": 2221,
+          "filled_shifts": 95,
+          "unique_workers": 1374,
+          "avg_rate": 23.297604682575418,
+          "rate_std": 3.447284246226928,
+          "supply_demand_ratio": 0.04277352543899145
+        },
+        {
+          "date": "2024-10-03",
+          "total_shifts": 2688,
+          "filled_shifts": 102,
+          "unique_workers": 1465,
+          "avg_rate": 22.589244791666665,
+          "rate_std": 3.05207563378283,
+          "supply_demand_ratio": 0.03794642857142857
+        },
+        {
+          "date": "2024-10-04",
+          "total_shifts": 2254,
+          "filled_shifts": 113,
+          "unique_workers": 1298,
+          "avg_rate": 23.684094942324755,
+          "rate_std": 4.388160163936551,
+          "supply_demand_ratio": 0.05013309671694765
+        },
+        {
+          "date": "2024-10-05",
+          "total_shifts": 3820,
+          "filled_shifts": 150,
+          "unique_workers": 1817,
+          "avg_rate": 23.595277486910998,
+          "rate_std": 3.4764057536615476,
+          "supply_demand_ratio": 0.03926701570680628
+        },
+        {
+          "date": "2024-10-06",
+          "total_shifts": 3495,
+          "filled_shifts": 155,
+          "unique_workers": 1785,
+          "avg_rate": 24.470955650929902,
+          "rate_std": 5.143011575123701,
+          "supply_demand_ratio": 0.044349070100143065
+        },
+        {
+          "date": "2024-10-07",
+          "total_shifts": 3199,
+          "filled_shifts": 128,
+          "unique_workers": 1704,
+          "avg_rate": 24.880371991247262,
+          "rate_std": 4.944015714733618,
+          "supply_demand_ratio": 0.04001250390747108
+        },
+        {
+          "date": "2024-10-08",
+          "total_shifts": 2114,
+          "filled_shifts": 113,
+          "unique_workers": 1288,
+          "avg_rate": 24.77611163670766,
+          "rate_std": 5.192815016754115,
+          "supply_demand_ratio": 0.05345316934720908
+        },
+        {
+          "date": "2024-10-09",
+          "total_shifts": 1255,
+          "filled_shifts": 101,
+          "unique_workers": 918,
+          "avg_rate": 25.070764940239044,
+          "rate_std": 4.373911080312761,
+          "supply_demand_ratio": 0.0804780876494024
+        },
+        {
+          "date": "2024-10-10",
+          "total_shifts": 2035,
+          "filled_shifts": 110,
+          "unique_workers": 1265,
+          "avg_rate": 23.582432432432434,
+          "rate_std": 3.263991579673977,
+          "supply_demand_ratio": 0.05405405405405406
+        },
+        {
+          "date": "2024-10-11",
+          "total_shifts": 3227,
+          "filled_shifts": 117,
+          "unique_workers": 1657,
+          "avg_rate": 23.727418655097615,
+          "rate_std": 3.9198870211190546,
+          "supply_demand_ratio": 0.0362565850635265
+        },
+        {
+          "date": "2024-10-12",
+          "total_shifts": 4457,
+          "filled_shifts": 170,
+          "unique_workers": 1954,
+          "avg_rate": 23.058451873457482,
+          "rate_std": 3.064925290645225,
+          "supply_demand_ratio": 0.03814224814897913
+        },
+        {
+          "date": "2024-10-13",
+          "total_shifts": 3568,
+          "filled_shifts": 171,
+          "unique_workers": 1818,
+          "avg_rate": 23.996917040358746,
+          "rate_std": 3.8724709712855683,
+          "supply_demand_ratio": 0.047926008968609865
+        },
+        {
+          "date": "2024-10-14",
+          "total_shifts": 2197,
+          "filled_shifts": 132,
+          "unique_workers": 1226,
+          "avg_rate": 23.83730996813837,
+          "rate_std": 3.9204175854858065,
+          "supply_demand_ratio": 0.06008192990441511
+        },
+        {
+          "date": "2024-10-15",
+          "total_shifts": 1672,
+          "filled_shifts": 106,
+          "unique_workers": 976,
+          "avg_rate": 23.033941387559807,
+          "rate_std": 3.29462261821333,
+          "supply_demand_ratio": 0.06339712918660287
+        },
+        {
+          "date": "2024-10-16",
+          "total_shifts": 1541,
+          "filled_shifts": 111,
+          "unique_workers": 1037,
+          "avg_rate": 23.89559377027904,
+          "rate_std": 3.81649160485585,
+          "supply_demand_ratio": 0.07203114860480207
+        },
+        {
+          "date": "2024-10-17",
+          "total_shifts": 1218,
+          "filled_shifts": 106,
+          "unique_workers": 811,
+          "avg_rate": 23.967060755336618,
+          "rate_std": 3.3246543833452646,
+          "supply_demand_ratio": 0.08702791461412152
+        },
+        {
+          "date": "2024-10-18",
+          "total_shifts": 2818,
+          "filled_shifts": 109,
+          "unique_workers": 1399,
+          "avg_rate": 23.531305890702626,
+          "rate_std": 3.4774662511634666,
+          "supply_demand_ratio": 0.03867991483321505
+        },
+        {
+          "date": "2024-10-19",
+          "total_shifts": 3422,
+          "filled_shifts": 136,
+          "unique_workers": 1666,
+          "avg_rate": 23.50407071887785,
+          "rate_std": 4.034230057730006,
+          "supply_demand_ratio": 0.03974284044418469
+        },
+        {
+          "date": "2024-10-20",
+          "total_shifts": 3068,
+          "filled_shifts": 145,
+          "unique_workers": 1598,
+          "avg_rate": 24.273461538461536,
+          "rate_std": 3.6996908390678556,
+          "supply_demand_ratio": 0.04726205997392438
+        },
+        {
+          "date": "2024-10-21",
+          "total_shifts": 2082,
+          "filled_shifts": 120,
+          "unique_workers": 1210,
+          "avg_rate": 24.219140249759846,
+          "rate_std": 3.668249000015655,
+          "supply_demand_ratio": 0.05763688760806916
+        },
+        {
+          "date": "2024-10-22",
+          "total_shifts": 1906,
+          "filled_shifts": 92,
+          "unique_workers": 1237,
+          "avg_rate": 24.040099685204616,
+          "rate_std": 4.0940222270167235,
+          "supply_demand_ratio": 0.048268625393494226
+        },
+        {
+          "date": "2024-10-23",
+          "total_shifts": 1427,
+          "filled_shifts": 84,
+          "unique_workers": 935,
+          "avg_rate": 23.612249474421866,
+          "rate_std": 3.090128684528766,
+          "supply_demand_ratio": 0.05886475122634898
+        },
+        {
+          "date": "2024-10-24",
+          "total_shifts": 1220,
+          "filled_shifts": 85,
+          "unique_workers": 786,
+          "avg_rate": 23.340631147540982,
+          "rate_std": 3.131899073733514,
+          "supply_demand_ratio": 0.06967213114754098
+        },
+        {
+          "date": "2024-10-25",
+          "total_shifts": 1914,
+          "filled_shifts": 104,
+          "unique_workers": 1124,
+          "avg_rate": 23.326640543364682,
+          "rate_std": 3.3994547161751663,
+          "supply_demand_ratio": 0.054336468129571575
+        },
+        {
+          "date": "2024-10-26",
+          "total_shifts": 3708,
+          "filled_shifts": 130,
+          "unique_workers": 1810,
+          "avg_rate": 24.15695523193096,
+          "rate_std": 4.278670233933613,
+          "supply_demand_ratio": 0.03505933117583603
+        },
+        {
+          "date": "2024-10-27",
+          "total_shifts": 3285,
+          "filled_shifts": 147,
+          "unique_workers": 1671,
+          "avg_rate": 24.006797564687975,
+          "rate_std": 4.650083830605933,
+          "supply_demand_ratio": 0.04474885844748858
+        },
+        {
+          "date": "2024-10-28",
+          "total_shifts": 2844,
+          "filled_shifts": 135,
+          "unique_workers": 1623,
+          "avg_rate": 24.55504571026723,
+          "rate_std": 4.929393155499317,
+          "supply_demand_ratio": 0.04746835443037975
+        },
+        {
+          "date": "2024-10-29",
+          "total_shifts": 1629,
+          "filled_shifts": 90,
+          "unique_workers": 1181,
+          "avg_rate": 24.554493554327806,
+          "rate_std": 4.399922653104954,
+          "supply_demand_ratio": 0.055248618784530384
+        },
+        {
+          "date": "2024-10-30",
+          "total_shifts": 1126,
+          "filled_shifts": 85,
+          "unique_workers": 835,
+          "avg_rate": 25.088774422735344,
+          "rate_std": 3.940403736641248,
+          "supply_demand_ratio": 0.07548845470692718
+        },
+        {
+          "date": "2024-10-31",
+          "total_shifts": 4882,
+          "filled_shifts": 89,
+          "unique_workers": 2276,
+          "avg_rate": 23.703168783285538,
+          "rate_std": 3.5922229068648424,
+          "supply_demand_ratio": 0.018230233510856206
+        },
+        {
+          "date": "2024-11-01",
+          "total_shifts": 3790,
+          "filled_shifts": 120,
+          "unique_workers": 1912,
+          "avg_rate": 24.289788918205804,
+          "rate_std": 4.673848975609126,
+          "supply_demand_ratio": 0.0316622691292876
+        },
+        {
+          "date": "2024-11-02",
+          "total_shifts": 2969,
+          "filled_shifts": 119,
+          "unique_workers": 1546,
+          "avg_rate": 24.164260693836308,
+          "rate_std": 4.26172151644941,
+          "supply_demand_ratio": 0.04008083529808016
+        },
+        {
+          "date": "2024-11-03",
+          "total_shifts": 2988,
+          "filled_shifts": 138,
+          "unique_workers": 1694,
+          "avg_rate": 23.816455823293175,
+          "rate_std": 3.3964074526754664,
+          "supply_demand_ratio": 0.04618473895582329
+        },
+        {
+          "date": "2024-11-04",
+          "total_shifts": 2321,
+          "filled_shifts": 116,
+          "unique_workers": 1376,
+          "avg_rate": 25.15096510124946,
+          "rate_std": 5.094187180865594,
+          "supply_demand_ratio": 0.04997845756139595
+        },
+        {
+          "date": "2024-11-05",
+          "total_shifts": 1136,
+          "filled_shifts": 96,
+          "unique_workers": 799,
+          "avg_rate": 23.794172535211267,
+          "rate_std": 4.130639423379425,
+          "supply_demand_ratio": 0.08450704225352113
+        },
+        {
+          "date": "2024-11-06",
+          "total_shifts": 1207,
+          "filled_shifts": 76,
+          "unique_workers": 890,
+          "avg_rate": 23.34238608119304,
+          "rate_std": 3.381088357467182,
+          "supply_demand_ratio": 0.06296603148301574
+        },
+        {
+          "date": "2024-11-07",
+          "total_shifts": 1527,
+          "filled_shifts": 86,
+          "unique_workers": 1112,
+          "avg_rate": 24.55438768827767,
+          "rate_std": 4.223313703549632,
+          "supply_demand_ratio": 0.056319580877537655
+        },
+        {
+          "date": "2024-11-08",
+          "total_shifts": 2338,
+          "filled_shifts": 91,
+          "unique_workers": 1233,
+          "avg_rate": 22.85659110350727,
+          "rate_std": 2.88146084009438,
+          "supply_demand_ratio": 0.038922155688622756
+        },
+        {
+          "date": "2024-11-09",
+          "total_shifts": 3370,
+          "filled_shifts": 108,
+          "unique_workers": 1759,
+          "avg_rate": 24.104160237388726,
+          "rate_std": 4.4929506565395405,
+          "supply_demand_ratio": 0.032047477744807124
+        },
+        {
+          "date": "2024-11-10",
+          "total_shifts": 2270,
+          "filled_shifts": 111,
+          "unique_workers": 1301,
+          "avg_rate": 24.388863436123348,
+          "rate_std": 4.789167383324839,
+          "supply_demand_ratio": 0.04889867841409692
+        },
+        {
+          "date": "2024-11-11",
+          "total_shifts": 1498,
+          "filled_shifts": 97,
+          "unique_workers": 906,
+          "avg_rate": 24.990854472630176,
+          "rate_std": 5.7546830226258745,
+          "supply_demand_ratio": 0.06475300400534045
+        },
+        {
+          "date": "2024-11-12",
+          "total_shifts": 1284,
+          "filled_shifts": 79,
+          "unique_workers": 899,
+          "avg_rate": 22.71,
+          "rate_std": 3.2580826048962237,
+          "supply_demand_ratio": 0.061526479750778816
+        },
+        {
+          "date": "2024-11-13",
+          "total_shifts": 728,
+          "filled_shifts": 68,
+          "unique_workers": 540,
+          "avg_rate": 23.511318681318684,
+          "rate_std": 3.128550985850687,
+          "supply_demand_ratio": 0.09340659340659341
+        },
+        {
+          "date": "2024-11-14",
+          "total_shifts": 1308,
+          "filled_shifts": 79,
+          "unique_workers": 961,
+          "avg_rate": 24.949067278287462,
+          "rate_std": 4.734336931787544,
+          "supply_demand_ratio": 0.06039755351681957
+        },
+        {
+          "date": "2024-11-15",
+          "total_shifts": 1989,
+          "filled_shifts": 87,
+          "unique_workers": 1210,
+          "avg_rate": 22.72106586224233,
+          "rate_std": 3.088264762882218,
+          "supply_demand_ratio": 0.043740573152337855
+        },
+        {
+          "date": "2024-11-16",
+          "total_shifts": 3194,
+          "filled_shifts": 145,
+          "unique_workers": 1734,
+          "avg_rate": 24.0976737633062,
+          "rate_std": 3.784484785430651,
+          "supply_demand_ratio": 0.04539762053850971
+        },
+        {
+          "date": "2024-11-17",
+          "total_shifts": 1923,
+          "filled_shifts": 124,
+          "unique_workers": 1198,
+          "avg_rate": 24.061149245969837,
+          "rate_std": 4.714456179204904,
+          "supply_demand_ratio": 0.06448257930317212
+        },
+        {
+          "date": "2024-11-18",
+          "total_shifts": 1702,
+          "filled_shifts": 97,
+          "unique_workers": 1095,
+          "avg_rate": 23.411410105757934,
+          "rate_std": 3.0624936732945174,
+          "supply_demand_ratio": 0.05699177438307873
+        },
+        {
+          "date": "2024-11-19",
+          "total_shifts": 1540,
+          "filled_shifts": 91,
+          "unique_workers": 1083,
+          "avg_rate": 24.035,
+          "rate_std": 6.362798039808167,
+          "supply_demand_ratio": 0.05909090909090909
+        },
+        {
+          "date": "2024-11-20",
+          "total_shifts": 925,
+          "filled_shifts": 63,
+          "unique_workers": 696,
+          "avg_rate": 23.842702702702702,
+          "rate_std": 3.8479966457012664,
+          "supply_demand_ratio": 0.0681081081081081
+        },
+        {
+          "date": "2024-11-21",
+          "total_shifts": 792,
+          "filled_shifts": 72,
+          "unique_workers": 625,
+          "avg_rate": 23.404318181818184,
+          "rate_std": 3.3637195398289785,
+          "supply_demand_ratio": 0.09090909090909091
+        },
+        {
+          "date": "2024-11-22",
+          "total_shifts": 1743,
+          "filled_shifts": 77,
+          "unique_workers": 966,
+          "avg_rate": 22.126683878370624,
+          "rate_std": 2.143746604006907,
+          "supply_demand_ratio": 0.04417670682730924
+        },
+        {
+          "date": "2024-11-23",
+          "total_shifts": 2309,
+          "filled_shifts": 105,
+          "unique_workers": 1373,
+          "avg_rate": 23.096015591165006,
+          "rate_std": 4.0387527215322345,
+          "supply_demand_ratio": 0.0454742312689476
+        },
+        {
+          "date": "2024-11-24",
+          "total_shifts": 1892,
+          "filled_shifts": 122,
+          "unique_workers": 1194,
+          "avg_rate": 23.938102536997885,
+          "rate_std": 4.294522521175066,
+          "supply_demand_ratio": 0.06448202959830866
+        },
+        {
+          "date": "2024-11-25",
+          "total_shifts": 1077,
+          "filled_shifts": 90,
+          "unique_workers": 765,
+          "avg_rate": 24.069220055710307,
+          "rate_std": 3.415392522474008,
+          "supply_demand_ratio": 0.08356545961002786
+        },
+        {
+          "date": "2024-11-26",
+          "total_shifts": 1012,
+          "filled_shifts": 76,
+          "unique_workers": 754,
+          "avg_rate": 22.765444664031623,
+          "rate_std": 2.8298930821640442,
+          "supply_demand_ratio": 0.07509881422924901
+        },
+        {
+          "date": "2024-11-27",
+          "total_shifts": 1409,
+          "filled_shifts": 75,
+          "unique_workers": 959,
+          "avg_rate": 23.75926898509581,
+          "rate_std": 3.5066053282777427,
+          "supply_demand_ratio": 0.053229240596167494
+        },
+        {
+          "date": "2024-11-28",
+          "total_shifts": 961,
+          "filled_shifts": 103,
+          "unique_workers": 629,
+          "avg_rate": 35.49136316337149,
+          "rate_std": 6.236452693827634,
+          "supply_demand_ratio": 0.10718002081165452
+        },
+        {
+          "date": "2024-11-29",
+          "total_shifts": 3079,
+          "filled_shifts": 108,
+          "unique_workers": 1690,
+          "avg_rate": 25.133124391036052,
+          "rate_std": 6.033536552837344,
+          "supply_demand_ratio": 0.035076323481649886
+        },
+        {
+          "date": "2024-11-30",
+          "total_shifts": 3048,
+          "filled_shifts": 117,
+          "unique_workers": 1676,
+          "avg_rate": 23.698274278215223,
+          "rate_std": 4.013600243248409,
+          "supply_demand_ratio": 0.038385826771653545
+        },
+        {
+          "date": "2024-12-01",
+          "total_shifts": 1679,
+          "filled_shifts": 126,
+          "unique_workers": 1145,
+          "avg_rate": 24.530309708159617,
+          "rate_std": 5.017823443389544,
+          "supply_demand_ratio": 0.07504466944609887
+        },
+        {
+          "date": "2024-12-02",
+          "total_shifts": 1270,
+          "filled_shifts": 95,
+          "unique_workers": 939,
+          "avg_rate": 25.023708661417324,
+          "rate_std": 4.003855158787475,
+          "supply_demand_ratio": 0.07480314960629922
+        },
+        {
+          "date": "2024-12-03",
+          "total_shifts": 925,
+          "filled_shifts": 71,
+          "unique_workers": 733,
+          "avg_rate": 23.360054054054054,
+          "rate_std": 4.2401819236906295,
+          "supply_demand_ratio": 0.07675675675675675
+        },
+        {
+          "date": "2024-12-04",
+          "total_shifts": 821,
+          "filled_shifts": 68,
+          "unique_workers": 672,
+          "avg_rate": 22.89874543239951,
+          "rate_std": 3.525982998692355,
+          "supply_demand_ratio": 0.0828258221680877
+        },
+        {
+          "date": "2024-12-05",
+          "total_shifts": 684,
+          "filled_shifts": 81,
+          "unique_workers": 564,
+          "avg_rate": 25.430540935672518,
+          "rate_std": 4.918644526921656,
+          "supply_demand_ratio": 0.11842105263157894
+        },
+        {
+          "date": "2024-12-06",
+          "total_shifts": 1248,
+          "filled_shifts": 79,
+          "unique_workers": 949,
+          "avg_rate": 22.712187500000002,
+          "rate_std": 3.4046534417824015,
+          "supply_demand_ratio": 0.06330128205128205
+        },
+        {
+          "date": "2024-12-07",
+          "total_shifts": 2139,
+          "filled_shifts": 124,
+          "unique_workers": 1295,
+          "avg_rate": 23.930444132772323,
+          "rate_std": 4.232480827607876,
+          "supply_demand_ratio": 0.057971014492753624
+        },
+        {
+          "date": "2024-12-08",
+          "total_shifts": 1971,
+          "filled_shifts": 108,
+          "unique_workers": 1175,
+          "avg_rate": 23.034439370877724,
+          "rate_std": 3.724065464176825,
+          "supply_demand_ratio": 0.0547945205479452
+        },
+        {
+          "date": "2024-12-09",
+          "total_shifts": 1956,
+          "filled_shifts": 85,
+          "unique_workers": 1309,
+          "avg_rate": 23.851242331288343,
+          "rate_std": 4.7264507417713855,
+          "supply_demand_ratio": 0.0434560327198364
+        },
+        {
+          "date": "2024-12-10",
+          "total_shifts": 1503,
+          "filled_shifts": 87,
+          "unique_workers": 1110,
+          "avg_rate": 23.173998669328007,
+          "rate_std": 4.645750350256568,
+          "supply_demand_ratio": 0.05788423153692615
+        },
+        {
+          "date": "2024-12-11",
+          "total_shifts": 1288,
+          "filled_shifts": 74,
+          "unique_workers": 963,
+          "avg_rate": 23.559013975155278,
+          "rate_std": 3.4005714643551954,
+          "supply_demand_ratio": 0.05745341614906832
+        },
+        {
+          "date": "2024-12-12",
+          "total_shifts": 1319,
+          "filled_shifts": 71,
+          "unique_workers": 1031,
+          "avg_rate": 22.850568612585292,
+          "rate_std": 3.4472839337856978,
+          "supply_demand_ratio": 0.053828658074298714
+        },
+        {
+          "date": "2024-12-13",
+          "total_shifts": 2287,
+          "filled_shifts": 107,
+          "unique_workers": 1420,
+          "avg_rate": 23.879742020113685,
+          "rate_std": 4.2810362289123125,
+          "supply_demand_ratio": 0.04678618277219064
+        },
+        {
+          "date": "2024-12-14",
+          "total_shifts": 3945,
+          "filled_shifts": 127,
+          "unique_workers": 2042,
+          "avg_rate": 23.438415716096326,
+          "rate_std": 3.9370555545626154,
+          "supply_demand_ratio": 0.032192648922686945
+        },
+        {
+          "date": "2024-12-15",
+          "total_shifts": 1864,
+          "filled_shifts": 119,
+          "unique_workers": 1238,
+          "avg_rate": 24.044388412017167,
+          "rate_std": 3.8579450546163714,
+          "supply_demand_ratio": 0.0638412017167382
+        },
+        {
+          "date": "2024-12-16",
+          "total_shifts": 1316,
+          "filled_shifts": 102,
+          "unique_workers": 926,
+          "avg_rate": 22.688548632218847,
+          "rate_std": 3.3727173244262296,
+          "supply_demand_ratio": 0.07750759878419453
+        },
+        {
+          "date": "2024-12-17",
+          "total_shifts": 1417,
+          "filled_shifts": 75,
+          "unique_workers": 1058,
+          "avg_rate": 23.533422724064927,
+          "rate_std": 3.8252537765032977,
+          "supply_demand_ratio": 0.0529287226534933
+        },
+        {
+          "date": "2024-12-18",
+          "total_shifts": 1123,
+          "filled_shifts": 75,
+          "unique_workers": 836,
+          "avg_rate": 22.84993766696349,
+          "rate_std": 2.8745849418501264,
+          "supply_demand_ratio": 0.06678539626001781
+        },
+        {
+          "date": "2024-12-19",
+          "total_shifts": 1146,
+          "filled_shifts": 67,
+          "unique_workers": 858,
+          "avg_rate": 24.512216404886562,
+          "rate_std": 4.229502120072259,
+          "supply_demand_ratio": 0.05846422338568935
+        },
+        {
+          "date": "2024-12-20",
+          "total_shifts": 2107,
+          "filled_shifts": 112,
+          "unique_workers": 1187,
+          "avg_rate": 23.542852396772663,
+          "rate_std": 3.383968135266812,
+          "supply_demand_ratio": 0.053156146179401995
+        },
+        {
+          "date": "2024-12-21",
+          "total_shifts": 2335,
+          "filled_shifts": 120,
+          "unique_workers": 1323,
+          "avg_rate": 23.842612419700213,
+          "rate_std": 3.3159712230014478,
+          "supply_demand_ratio": 0.05139186295503212
+        },
+        {
+          "date": "2024-12-22",
+          "total_shifts": 1848,
+          "filled_shifts": 131,
+          "unique_workers": 1274,
+          "avg_rate": 24.555362554112552,
+          "rate_std": 3.715619976824304,
+          "supply_demand_ratio": 0.07088744588744589
+        },
+        {
+          "date": "2024-12-23",
+          "total_shifts": 1207,
+          "filled_shifts": 92,
+          "unique_workers": 896,
+          "avg_rate": 23.92884009942005,
+          "rate_std": 3.965901863656641,
+          "supply_demand_ratio": 0.07622203811101906
+        },
+        {
+          "date": "2024-12-24",
+          "total_shifts": 3580,
+          "filled_shifts": 180,
+          "unique_workers": 1851,
+          "avg_rate": 26.696039106145253,
+          "rate_std": 6.714027336253132,
+          "supply_demand_ratio": 0.05027932960893855
+        },
+        {
+          "date": "2024-12-25",
+          "total_shifts": 2367,
+          "filled_shifts": 177,
+          "unique_workers": 1460,
+          "avg_rate": 34.23850866075201,
+          "rate_std": 7.058046098135338,
+          "supply_demand_ratio": 0.07477820025348543
+        },
+        {
+          "date": "2024-12-26",
+          "total_shifts": 2444,
+          "filled_shifts": 119,
+          "unique_workers": 1545,
+          "avg_rate": 26.578690671031097,
+          "rate_std": 7.481084544092009,
+          "supply_demand_ratio": 0.04869067103109656
+        },
+        {
+          "date": "2024-12-27",
+          "total_shifts": 3463,
+          "filled_shifts": 103,
+          "unique_workers": 1732,
+          "avg_rate": 23.36039561074213,
+          "rate_std": 2.9754576692376236,
+          "supply_demand_ratio": 0.029742997401097315
+        },
+        {
+          "date": "2024-12-28",
+          "total_shifts": 3986,
+          "filled_shifts": 127,
+          "unique_workers": 2033,
+          "avg_rate": 24.201896638233816,
+          "rate_std": 3.4188451630319006,
+          "supply_demand_ratio": 0.03186151530356247
+        },
+        {
+          "date": "2024-12-29",
+          "total_shifts": 2679,
+          "filled_shifts": 135,
+          "unique_workers": 1541,
+          "avg_rate": 24.61692422545726,
+          "rate_std": 4.924328626125582,
+          "supply_demand_ratio": 0.05039193729003359
+        },
+        {
+          "date": "2024-12-30",
+          "total_shifts": 1898,
+          "filled_shifts": 113,
+          "unique_workers": 1229,
+          "avg_rate": 24.603061116965225,
+          "rate_std": 4.476206758532203,
+          "supply_demand_ratio": 0.059536354056902004
+        },
+        {
+          "date": "2024-12-31",
+          "total_shifts": 2199,
+          "filled_shifts": 144,
+          "unique_workers": 1341,
+          "avg_rate": 25.869972714870396,
+          "rate_std": 6.4960091758776,
+          "supply_demand_ratio": 0.06548431105047749
+        },
+        {
+          "date": "2025-01-01",
+          "total_shifts": 1532,
+          "filled_shifts": 206,
+          "unique_workers": 1071,
+          "avg_rate": 39.12017624020888,
+          "rate_std": 4.611214842134707,
+          "supply_demand_ratio": 0.13446475195822455
+        },
+        {
+          "date": "2025-01-02",
+          "total_shifts": 2514,
+          "filled_shifts": 108,
+          "unique_workers": 1508,
+          "avg_rate": 25.275970564836914,
+          "rate_std": 6.295342402578839,
+          "supply_demand_ratio": 0.04295942720763723
+        },
+        {
+          "date": "2025-01-03",
+          "total_shifts": 2374,
+          "filled_shifts": 87,
+          "unique_workers": 1286,
+          "avg_rate": 23.17179443976411,
+          "rate_std": 3.67295720725236,
+          "supply_demand_ratio": 0.03664700926705981
+        },
+        {
+          "date": "2025-01-04",
+          "total_shifts": 3546,
+          "filled_shifts": 122,
+          "unique_workers": 1802,
+          "avg_rate": 23.91238296672307,
+          "rate_std": 4.208256199865226,
+          "supply_demand_ratio": 0.03440496333897349
+        },
+        {
+          "date": "2025-01-05",
+          "total_shifts": 2650,
+          "filled_shifts": 118,
+          "unique_workers": 1572,
+          "avg_rate": 24.5873320754717,
+          "rate_std": 4.312937110001237,
+          "supply_demand_ratio": 0.04452830188679245
+        },
+        {
+          "date": "2025-01-06",
+          "total_shifts": 3524,
+          "filled_shifts": 116,
+          "unique_workers": 1929,
+          "avg_rate": 24.388649262202044,
+          "rate_std": 5.183586307603089,
+          "supply_demand_ratio": 0.032917139614074914
+        },
+        {
+          "date": "2025-01-07",
+          "total_shifts": 2133,
+          "filled_shifts": 84,
+          "unique_workers": 1402,
+          "avg_rate": 24.20726207219878,
+          "rate_std": 5.140019528697802,
+          "supply_demand_ratio": 0.03938115330520394
+        },
+        {
+          "date": "2025-01-08",
+          "total_shifts": 2099,
+          "filled_shifts": 80,
+          "unique_workers": 1366,
+          "avg_rate": 23.378294425917105,
+          "rate_std": 3.1597594282547217,
+          "supply_demand_ratio": 0.038113387327298714
+        },
+        {
+          "date": "2025-01-09",
+          "total_shifts": 1395,
+          "filled_shifts": 88,
+          "unique_workers": 975,
+          "avg_rate": 23.89172759856631,
+          "rate_std": 4.210008207587453,
+          "supply_demand_ratio": 0.06308243727598567
+        },
+        {
+          "date": "2025-01-10",
+          "total_shifts": 3435,
+          "filled_shifts": 95,
+          "unique_workers": 1851,
+          "avg_rate": 24.508794759825328,
+          "rate_std": 3.961280627273178,
+          "supply_demand_ratio": 0.027656477438136828
+        },
+        {
+          "date": "2025-01-11",
+          "total_shifts": 2659,
+          "filled_shifts": 110,
+          "unique_workers": 1544,
+          "avg_rate": 23.9037645731478,
+          "rate_std": 4.287584075812019,
+          "supply_demand_ratio": 0.04136893569010906
+        },
+        {
+          "date": "2025-01-12",
+          "total_shifts": 1838,
+          "filled_shifts": 123,
+          "unique_workers": 1204,
+          "avg_rate": 24.83103373231774,
+          "rate_std": 5.0497076366918,
+          "supply_demand_ratio": 0.06692056583242655
+        },
+        {
+          "date": "2025-01-13",
+          "total_shifts": 1939,
+          "filled_shifts": 100,
+          "unique_workers": 1251,
+          "avg_rate": 23.228066013408974,
+          "rate_std": 3.5063582853080693,
+          "supply_demand_ratio": 0.05157297576070139
+        },
+        {
+          "date": "2025-01-14",
+          "total_shifts": 1184,
+          "filled_shifts": 77,
+          "unique_workers": 818,
+          "avg_rate": 22.98125,
+          "rate_std": 3.6823131845134984,
+          "supply_demand_ratio": 0.06503378378378379
+        },
+        {
+          "date": "2025-01-15",
+          "total_shifts": 1900,
+          "filled_shifts": 56,
+          "unique_workers": 1336,
+          "avg_rate": 23.810405263157893,
+          "rate_std": 2.7440707095391508,
+          "supply_demand_ratio": 0.029473684210526315
+        },
+        {
+          "date": "2025-01-16",
+          "total_shifts": 1388,
+          "filled_shifts": 74,
+          "unique_workers": 991,
+          "avg_rate": 23.16543227665706,
+          "rate_std": 3.4230121234919966,
+          "supply_demand_ratio": 0.053314121037463975
+        },
+        {
+          "date": "2025-01-17",
+          "total_shifts": 1922,
+          "filled_shifts": 96,
+          "unique_workers": 1281,
+          "avg_rate": 23.56895421436004,
+          "rate_std": 5.422199178782902,
+          "supply_demand_ratio": 0.04994797086368366
+        },
+        {
+          "date": "2025-01-18",
+          "total_shifts": 3213,
+          "filled_shifts": 121,
+          "unique_workers": 1818,
+          "avg_rate": 24.418736383442265,
+          "rate_std": 4.809883791626663,
+          "supply_demand_ratio": 0.03765950824774354
+        },
+        {
+          "date": "2025-01-19",
+          "total_shifts": 2326,
+          "filled_shifts": 124,
+          "unique_workers": 1439,
+          "avg_rate": 24.189518486672398,
+          "rate_std": 3.8189914144914163,
+          "supply_demand_ratio": 0.05331040412725709
+        },
+        {
+          "date": "2025-01-20",
+          "total_shifts": 2271,
+          "filled_shifts": 107,
+          "unique_workers": 1425,
+          "avg_rate": 23.52024658740643,
+          "rate_std": 2.8919663190067046,
+          "supply_demand_ratio": 0.04711580801409071
+        }
+      ],
+      "day_of_week_balance": [
+        {
+          "day_of_week": "Friday",
+          "total_shifts": 43241,
+          "filled_shifts": 1717,
+          "unique_workers": 6434,
+          "avg_rate": 23.55172475197151,
+          "supply_demand_ratio": 0.03970768483615088
+        },
+        {
+          "day_of_week": "Monday",
+          "total_shifts": 36821,
+          "filled_shifts": 1987,
+          "unique_workers": 6391,
+          "avg_rate": 24.23825045490345,
+          "supply_demand_ratio": 0.05396377067434344
+        },
+        {
+          "day_of_week": "Saturday",
+          "total_shifts": 57175,
+          "filled_shifts": 2164,
+          "unique_workers": 7327,
+          "avg_rate": 23.754736860515962,
+          "supply_demand_ratio": 0.03784871010056843
+        },
+        {
+          "day_of_week": "Sunday",
+          "total_shifts": 45645,
+          "filled_shifts": 2433,
+          "unique_workers": 6913,
+          "avg_rate": 24.208906561507284,
+          "supply_demand_ratio": 0.05330266184686165
+        },
+        {
+          "day_of_week": "Thursday",
+          "total_shifts": 29612,
+          "filled_shifts": 1542,
+          "unique_workers": 5869,
+          "avg_rate": 24.382254153721465,
+          "supply_demand_ratio": 0.052073483722815075
+        },
+        {
+          "day_of_week": "Tuesday",
+          "total_shifts": 29064,
+          "filled_shifts": 1643,
+          "unique_workers": 5854,
+          "avg_rate": 24.23553949903661,
+          "supply_demand_ratio": 0.05653041563446188
+        },
+        {
+          "day_of_week": "Wednesday",
+          "total_shifts": 24782,
+          "filled_shifts": 1578,
+          "unique_workers": 5642,
+          "avg_rate": 25.64888427084174,
+          "supply_demand_ratio": 0.06367524816398999
+        }
+      ],
+      "overall_metrics": {
+        "avg_supply_demand_ratio": 0.05476525865482301,
+        "supply_volatility": 0.01834513864909296
+      }
+    },
+    "peak_performance": {
+      "hourly_performance": [
+        {
+          "hour_of_day": 0,
+          "total_shifts": 3116,
+          "filled_shifts": 164,
+          "avg_rate": 28.79122272143774,
+          "unique_workers": 1517,
+          "fill_rate": 5.263157894736842
+        },
+        {
+          "hour_of_day": 1,
+          "total_shifts": 4290,
+          "filled_shifts": 437,
+          "avg_rate": 29.164449883449883,
+          "unique_workers": 1294,
+          "fill_rate": 10.186480186480185
+        },
+        {
+          "hour_of_day": 2,
+          "total_shifts": 797,
+          "filled_shifts": 40,
+          "avg_rate": 25.12841907151819,
+          "unique_workers": 606,
+          "fill_rate": 5.018820577164367
+        },
+        {
+          "hour_of_day": 3,
+          "total_shifts": 268,
+          "filled_shifts": 21,
+          "avg_rate": 27.565,
+          "unique_workers": 247,
+          "fill_rate": 7.835820895522389
+        },
+        {
+          "hour_of_day": 4,
+          "total_shifts": 197,
+          "filled_shifts": 6,
+          "avg_rate": 35.143857868020305,
+          "unique_workers": 185,
+          "fill_rate": 3.0456852791878175
+        },
+        {
+          "hour_of_day": 5,
+          "total_shifts": 16614,
+          "filled_shifts": 972,
+          "avg_rate": 23.676389189839895,
+          "unique_workers": 3995,
+          "fill_rate": 5.850487540628386
+        },
+        {
+          "hour_of_day": 6,
+          "total_shifts": 29269,
+          "filled_shifts": 1646,
+          "avg_rate": 24.45187126311114,
+          "unique_workers": 5213,
+          "fill_rate": 5.623697427312173
+        },
+        {
+          "hour_of_day": 7,
+          "total_shifts": 7601,
+          "filled_shifts": 470,
+          "avg_rate": 25.10833574529667,
+          "unique_workers": 2502,
+          "fill_rate": 6.183396921457703
+        },
+        {
+          "hour_of_day": 8,
+          "total_shifts": 57,
+          "filled_shifts": 8,
+          "avg_rate": 26.486842105263158,
+          "unique_workers": 56,
+          "fill_rate": 14.035087719298245
+        },
+        {
+          "hour_of_day": 9,
+          "total_shifts": 204,
+          "filled_shifts": 5,
+          "avg_rate": 30.499509803921566,
+          "unique_workers": 183,
+          "fill_rate": 2.450980392156863
+        },
+        {
+          "hour_of_day": 10,
+          "total_shifts": 1,
+          "filled_shifts": 1,
+          "avg_rate": 41.0,
+          "unique_workers": 1,
+          "fill_rate": 100.0
+        },
+        {
+          "hour_of_day": 11,
+          "total_shifts": 722,
+          "filled_shifts": 80,
+          "avg_rate": 31.190124653739613,
+          "unique_workers": 339,
+          "fill_rate": 11.080332409972298
+        },
+        {
+          "hour_of_day": 12,
+          "total_shifts": 2957,
+          "filled_shifts": 275,
+          "avg_rate": 29.24257693608387,
+          "unique_workers": 707,
+          "fill_rate": 9.299966181941157
+        },
+        {
+          "hour_of_day": 13,
+          "total_shifts": 31073,
+          "filled_shifts": 1490,
+          "avg_rate": 24.35396389148135,
+          "unique_workers": 5682,
+          "fill_rate": 4.795159785022367
+        },
+        {
+          "hour_of_day": 14,
+          "total_shifts": 46043,
+          "filled_shifts": 1985,
+          "avg_rate": 24.005590643528873,
+          "unique_workers": 6297,
+          "fill_rate": 4.3111873683296045
+        },
+        {
+          "hour_of_day": 15,
+          "total_shifts": 11939,
+          "filled_shifts": 490,
+          "avg_rate": 24.289245330429683,
+          "unique_workers": 3377,
+          "fill_rate": 4.104196331351035
+        },
+        {
+          "hour_of_day": 16,
+          "total_shifts": 1933,
+          "filled_shifts": 95,
+          "avg_rate": 26.51422141748577,
+          "unique_workers": 1308,
+          "fill_rate": 4.914640455250905
+        },
+        {
+          "hour_of_day": 17,
+          "total_shifts": 666,
+          "filled_shifts": 36,
+          "avg_rate": 27.313933933933935,
+          "unique_workers": 510,
+          "fill_rate": 5.405405405405405
+        },
+        {
+          "hour_of_day": 18,
+          "total_shifts": 594,
+          "filled_shifts": 29,
+          "avg_rate": 25.98094276094276,
+          "unique_workers": 517,
+          "fill_rate": 4.882154882154882
+        },
+        {
+          "hour_of_day": 19,
+          "total_shifts": 684,
+          "filled_shifts": 59,
+          "avg_rate": 26.220701754385964,
+          "unique_workers": 481,
+          "fill_rate": 8.625730994152047
+        },
+        {
+          "hour_of_day": 20,
+          "total_shifts": 271,
+          "filled_shifts": 45,
+          "avg_rate": 24.55952029520295,
+          "unique_workers": 223,
+          "fill_rate": 16.605166051660518
+        },
+        {
+          "hour_of_day": 21,
+          "total_shifts": 34745,
+          "filled_shifts": 1269,
+          "avg_rate": 23.233232983163045,
+          "unique_workers": 5031,
+          "fill_rate": 3.6523240754065336
+        },
+        {
+          "hour_of_day": 22,
+          "total_shifts": 56601,
+          "filled_shifts": 2777,
+          "avg_rate": 23.503719368915743,
+          "unique_workers": 6424,
+          "fill_rate": 4.90627374074663
+        },
+        {
+          "hour_of_day": 23,
+          "total_shifts": 15698,
+          "filled_shifts": 664,
+          "avg_rate": 23.646419926105235,
+          "unique_workers": 3465,
+          "fill_rate": 4.2298381959485285
+        }
+      ],
+      "peak_metrics": {
+        "peak_hours": [
+          5,
+          6,
+          13,
+          14,
+          21,
+          22
+        ],
+        "peak_fill_rate": 4.8565216562409494,
+        "peak_rate": 23.870794556673342,
+        "off_peak_fill_rate": 12.398158931880065,
+        "off_peak_rate": 28.213629122623182
+      }
+    },
+    "marketplace_efficiency": {
+      "monthly_efficiency": [
+        {
+          "month": "2024-09",
+          "total_shifts": 25054,
+          "filled_shifts": 1107,
+          "completed_shifts": 1074,
+          "avg_rate": 23.58557555679732,
+          "rate_std": 4.288185060844827,
+          "fill_rate": 4.418456134748943,
+          "completion_rate": 97.01897018970189
+        },
+        {
+          "month": "2024-10",
+          "total_shifts": 78101,
+          "filled_shifts": 3635,
+          "completed_shifts": 3517,
+          "avg_rate": 23.86801654268191,
+          "rate_std": 4.011944268985699,
+          "fill_rate": 4.654229779388229,
+          "completion_rate": 96.75378266850069
+        },
+        {
+          "month": "2024-11",
+          "total_shifts": 57329,
+          "filled_shifts": 2936,
+          "completed_shifts": 2856,
+          "avg_rate": 24.100322175513266,
+          "rate_std": 4.60068586141604,
+          "fill_rate": 5.121317308866368,
+          "completion_rate": 97.27520435967303
+        },
+        {
+          "month": "2024-12",
+          "total_shifts": 60014,
+          "filled_shifts": 3294,
+          "completed_shifts": 3175,
+          "avg_rate": 24.569794381311027,
+          "rate_std": 5.118189226784172,
+          "fill_rate": 5.488719298830273,
+          "completion_rate": 96.38737097753491
+        },
+        {
+          "month": "2025-01",
+          "total_shifts": 45842,
+          "filled_shifts": 2092,
+          "completed_shifts": 2027,
+          "avg_rate": 24.53821975481,
+          "rate_std": 5.177336703813255,
+          "fill_rate": 4.563500719863881,
+          "completion_rate": 96.89292543021033
+        }
+      ],
+      "utilization_metrics": {
+        "avg_shifts_per_worker": 10.111455108359133,
+        "median_shifts_per_worker": 4.0,
+        "completion_rate": 96.82333129210043
+      }
+    }
   }
 }

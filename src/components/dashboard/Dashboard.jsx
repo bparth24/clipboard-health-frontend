@@ -25,6 +25,7 @@ import SlotPatterns from "./shift/SlotPatterns";
 import TimingAnalysis from "./shift/TimingAnalysis";
 import MarketDashboard from "./market/MarketDashboard";
 import ReliabilityDashboard from "./reliability/ReliabilityDashboard";
+import GrowthDashboard from "./growth/GrowthDashboard";
 
 const Dashboard = () => {
   const [data, setData] = useState(null);
@@ -226,6 +227,9 @@ const Dashboard = () => {
       {data.reliability_analysis && (
         <ReliabilityDashboard data={data.reliability_analysis} />
       )}
+
+      {/* Growth Analysis Section */}
+      {data.growth_analysis && <GrowthDashboard data={data.growth_analysis} />}
     </div>
   );
 };
