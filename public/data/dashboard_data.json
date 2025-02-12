@@ -8963,5 +8963,310 @@
         }
       ]
     }
+  },
+  "reliability_analysis": {
+    "no_shows": {
+      "overall_metrics": {
+        "total_no_shows": 31,
+        "no_show_rate": 0.2372933251684017,
+        "impact_on_reliability": 96.82333129210043
+      },
+      "slot_analysis": [
+        {
+          "SLOT_": "am",
+          "total_shifts": 4524,
+          "no_shows": 17,
+          "no_show_rate": 0.3757736516357206,
+          "avg_rate": 26.824805481874446
+        },
+        {
+          "SLOT_": "noc",
+          "total_shifts": 3286,
+          "no_shows": 6,
+          "no_show_rate": 0.18259281801582472,
+          "avg_rate": 26.208794887401098
+        },
+        {
+          "SLOT_": "pm",
+          "total_shifts": 5254,
+          "no_shows": 8,
+          "no_show_rate": 0.15226494099733537,
+          "avg_rate": 26.551417967263035
+        }
+      ]
+    },
+    "cancellations": {
+      "overall_metrics": {
+        "total_cancellations": 321,
+        "cancellation_rate": 2.4571341090018373,
+        "avg_notice_hours": 90.31534094842506
+      },
+      "notice_distribution": {
+        "Advance Notice": 227,
+        "Same Day (<24h)": 77,
+        "Last Minute (<2h)": 17
+      },
+      "day_analysis": [
+        {
+          "day_of_week": "Friday",
+          "SHIFT_ID": 33,
+          "cancellation_notice": 71.85420033670033
+        },
+        {
+          "day_of_week": "Monday",
+          "SHIFT_ID": 39,
+          "cancellation_notice": 76.92732193732192
+        },
+        {
+          "day_of_week": "Saturday",
+          "SHIFT_ID": 55,
+          "cancellation_notice": 73.65813131313129
+        },
+        {
+          "day_of_week": "Sunday",
+          "SHIFT_ID": 63,
+          "cancellation_notice": 100.72033068783068
+        },
+        {
+          "day_of_week": "Thursday",
+          "SHIFT_ID": 36,
+          "cancellation_notice": 124.51192129629625
+        },
+        {
+          "day_of_week": "Tuesday",
+          "SHIFT_ID": 52,
+          "cancellation_notice": 84.40628205128203
+        },
+        {
+          "day_of_week": "Wednesday",
+          "SHIFT_ID": 43,
+          "cancellation_notice": 101.20317183462531
+        }
+      ]
+    },
+    "urgent_shifts": {
+      "urgent_metrics": {
+        "total_urgent_shifts": 5045,
+        "urgent_shift_rate": 38.61757501530925,
+        "completion_rate": 98.90981169474728,
+        "avg_response_time": 6.878405792313623
+      },
+      "hourly_analysis": [
+        {
+          "hour": 0,
+          "total_shifts": 71,
+          "completed_shifts": 71,
+          "completion_rate": 100.0,
+          "avg_notice": 3.505469483568075
+        },
+        {
+          "hour": 1,
+          "total_shifts": 130,
+          "completed_shifts": 129,
+          "completion_rate": 99.23076923076923,
+          "avg_notice": 3.753720085470085
+        },
+        {
+          "hour": 2,
+          "total_shifts": 26,
+          "completed_shifts": 24,
+          "completion_rate": 92.3076923076923,
+          "avg_notice": -4.378632478632479
+        },
+        {
+          "hour": 3,
+          "total_shifts": 18,
+          "completed_shifts": 18,
+          "completion_rate": 100.0,
+          "avg_notice": -12.823395061728396
+        },
+        {
+          "hour": 4,
+          "total_shifts": 5,
+          "completed_shifts": 4,
+          "completion_rate": 80.0,
+          "avg_notice": 0.980277777777778
+        },
+        {
+          "hour": 5,
+          "total_shifts": 307,
+          "completed_shifts": 306,
+          "completion_rate": 99.6742671009772,
+          "avg_notice": 6.5525950054288815
+        },
+        {
+          "hour": 6,
+          "total_shifts": 652,
+          "completed_shifts": 647,
+          "completion_rate": 99.23312883435584,
+          "avg_notice": 6.88432557941377
+        },
+        {
+          "hour": 7,
+          "total_shifts": 229,
+          "completed_shifts": 224,
+          "completion_rate": 97.81659388646288,
+          "avg_notice": 6.101339155749637
+        },
+        {
+          "hour": 8,
+          "total_shifts": 7,
+          "completed_shifts": 7,
+          "completion_rate": 100.0,
+          "avg_notice": 0.29714285714285715
+        },
+        {
+          "hour": 9,
+          "total_shifts": 5,
+          "completed_shifts": 4,
+          "completion_rate": 80.0,
+          "avg_notice": 3.682555555555556
+        },
+        {
+          "hour": 10,
+          "total_shifts": 1,
+          "completed_shifts": 1,
+          "completion_rate": 100.0,
+          "avg_notice": 1.5605555555555555
+        },
+        {
+          "hour": 11,
+          "total_shifts": 15,
+          "completed_shifts": 15,
+          "completion_rate": 100.0,
+          "avg_notice": 5.501148148148148
+        },
+        {
+          "hour": 12,
+          "total_shifts": 37,
+          "completed_shifts": 36,
+          "completion_rate": 97.2972972972973,
+          "avg_notice": -3.941996996996996
+        },
+        {
+          "hour": 13,
+          "total_shifts": 535,
+          "completed_shifts": 528,
+          "completion_rate": 98.69158878504672,
+          "avg_notice": 8.977111111111112
+        },
+        {
+          "hour": 14,
+          "total_shifts": 819,
+          "completed_shifts": 806,
+          "completion_rate": 98.4126984126984,
+          "avg_notice": 8.304720187220187
+        },
+        {
+          "hour": 15,
+          "total_shifts": 265,
+          "completed_shifts": 261,
+          "completion_rate": 98.49056603773585,
+          "avg_notice": 7.733720125786164
+        },
+        {
+          "hour": 16,
+          "total_shifts": 87,
+          "completed_shifts": 87,
+          "completion_rate": 100.0,
+          "avg_notice": -8.801727330779055
+        },
+        {
+          "hour": 17,
+          "total_shifts": 36,
+          "completed_shifts": 36,
+          "completion_rate": 100.0,
+          "avg_notice": 2.578094135802469
+        },
+        {
+          "hour": 18,
+          "total_shifts": 27,
+          "completed_shifts": 27,
+          "completion_rate": 100.0,
+          "avg_notice": 1.6540020576131687
+        },
+        {
+          "hour": 19,
+          "total_shifts": 33,
+          "completed_shifts": 33,
+          "completion_rate": 100.0,
+          "avg_notice": 4.843754208754209
+        },
+        {
+          "hour": 20,
+          "total_shifts": 14,
+          "completed_shifts": 14,
+          "completion_rate": 100.0,
+          "avg_notice": 4.616388888888889
+        },
+        {
+          "hour": 21,
+          "total_shifts": 405,
+          "completed_shifts": 398,
+          "completion_rate": 98.27160493827161,
+          "avg_notice": 7.750982167352538
+        },
+        {
+          "hour": 22,
+          "total_shifts": 1006,
+          "completed_shifts": 1002,
+          "completion_rate": 99.60238568588468,
+          "avg_notice": 8.014018389662027
+        },
+        {
+          "hour": 23,
+          "total_shifts": 315,
+          "completed_shifts": 312,
+          "completion_rate": 99.04761904761905,
+          "avg_notice": 6.340000881834215
+        }
+      ]
+    },
+    "worker_reliability": {
+      "overall_metrics": {
+        "avg_reliability_score": 92.99269137040935,
+        "highly_reliable_workers": 1081
+      },
+      "segment_analysis": [
+        {
+          "reliability_segment": "Low",
+          "worker_id": 38,
+          "reliability_score": 0.9075573549257758,
+          "completion_rate": 0.020917678812415658,
+          "total_shifts": 1.5526315789473684
+        },
+        {
+          "reliability_segment": "Medium",
+          "worker_id": 23,
+          "reliability_score": 43.54739463435116,
+          "completion_rate": 0.5441695985174245,
+          "total_shifts": 7.521739130434782
+        },
+        {
+          "reliability_segment": "High",
+          "worker_id": 52,
+          "reliability_score": 67.07528701234278,
+          "completion_rate": 0.7669067162772739,
+          "total_shifts": 15.076923076923077
+        },
+        {
+          "reliability_segment": "Very High",
+          "worker_id": 1179,
+          "reliability_score": 98.0683333925783,
+          "completion_rate": 0.9890378716696336,
+          "total_shifts": 10.21882951653944
+        }
+      ],
+      "worker_distribution": {
+        "count": 1292.0,
+        "mean": 92.99269137040935,
+        "std": 19.19353171274037,
+        "min": 0.0,
+        "25%": 100.0,
+        "50%": 100.0,
+        "75%": 100.0,
+        "max": 100.0
+      }
+    }
   }
 }

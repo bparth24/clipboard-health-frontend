@@ -24,6 +24,7 @@ import DurationImpact from "./shift/DurationImpact";
 import SlotPatterns from "./shift/SlotPatterns";
 import TimingAnalysis from "./shift/TimingAnalysis";
 import MarketDashboard from "./market/MarketDashboard";
+import ReliabilityDashboard from "./reliability/ReliabilityDashboard";
 
 const Dashboard = () => {
   const [data, setData] = useState(null);
@@ -219,6 +220,11 @@ const Dashboard = () => {
       {/* Market Efficiency Section */}
       {data.market_efficiency && (
         <MarketDashboard data={data.market_efficiency} />
+      )}
+
+      {/* Reliability Analysis Section */}
+      {data.reliability_analysis && (
+        <ReliabilityDashboard data={data.reliability_analysis} />
       )}
     </div>
   );
