@@ -8737,5 +8737,231 @@
       "avg_time_between_shifts": 116.9677970325065,
       "bundle_rate": 33.71861604409063
     }
+  },
+  "market_efficiency": {
+    "time_to_fill": {
+      "time_stats": {
+        "avg_time_to_fill": 42.729022504592955,
+        "median_time_to_fill": 0.9768055555555555,
+        "std_time_to_fill": 123.30766761643434
+      },
+      "time_by_slot": [
+        {
+          "slot": "pm",
+          "avg_time": 47.64734889819412,
+          "count": 5254
+        },
+        {
+          "slot": "noc",
+          "avg_time": 34.49957344288905,
+          "count": 3286
+        },
+        {
+          "slot": "am",
+          "avg_time": 42.994513827488035,
+          "count": 4524
+        }
+      ],
+      "speed_analysis": [
+        {
+          "category": "Fast",
+          "count": 3267,
+          "avg_time": 0.04885028738564075
+        },
+        {
+          "category": "Medium",
+          "count": 6531,
+          "avg_time": 2.2592940505963077
+        },
+        {
+          "category": "Slow",
+          "count": 3266,
+          "avg_time": 166.34932843437423
+        }
+      ]
+    },
+    "conversion_funnel": {
+      "overall_metrics": {
+        "view_to_claim_rate": 4.905008635578584,
+        "claim_to_verify_rate": 96.82333129210043,
+        "overall_conversion": 4.749192761132387
+      },
+      "slot_metrics": [
+        {
+          "slot": "pm",
+          "views": 114368,
+          "claims": 5254,
+          "verified": 5088,
+          "conversion_rate": 4.448796866256295
+        },
+        {
+          "slot": "am",
+          "views": 96910,
+          "claims": 4524,
+          "verified": 4370,
+          "conversion_rate": 4.509338561551955
+        },
+        {
+          "slot": "noc",
+          "views": 55062,
+          "claims": 3286,
+          "verified": 3191,
+          "conversion_rate": 5.795285314736116
+        }
+      ]
+    },
+    "market_liquidity": {
+      "liquidity_stats": {
+        "avg_daily_shifts": 2201.1570247933882,
+        "fill_rate_volatility": 0.01834513864909296,
+        "rate_volatility": 4.651969637471841
+      },
+      "hourly_metrics": [
+        {
+          "hour": 0,
+          "total_shifts": 3116,
+          "filled_shifts": 164,
+          "fill_rate": 5.263157894736842
+        },
+        {
+          "hour": 1,
+          "total_shifts": 4290,
+          "filled_shifts": 437,
+          "fill_rate": 10.186480186480185
+        },
+        {
+          "hour": 2,
+          "total_shifts": 797,
+          "filled_shifts": 40,
+          "fill_rate": 5.018820577164367
+        },
+        {
+          "hour": 3,
+          "total_shifts": 268,
+          "filled_shifts": 21,
+          "fill_rate": 7.835820895522389
+        },
+        {
+          "hour": 4,
+          "total_shifts": 197,
+          "filled_shifts": 6,
+          "fill_rate": 3.0456852791878175
+        },
+        {
+          "hour": 5,
+          "total_shifts": 16614,
+          "filled_shifts": 972,
+          "fill_rate": 5.850487540628386
+        },
+        {
+          "hour": 6,
+          "total_shifts": 29269,
+          "filled_shifts": 1646,
+          "fill_rate": 5.623697427312173
+        },
+        {
+          "hour": 7,
+          "total_shifts": 7601,
+          "filled_shifts": 470,
+          "fill_rate": 6.183396921457703
+        },
+        {
+          "hour": 8,
+          "total_shifts": 57,
+          "filled_shifts": 8,
+          "fill_rate": 14.035087719298245
+        },
+        {
+          "hour": 9,
+          "total_shifts": 204,
+          "filled_shifts": 5,
+          "fill_rate": 2.450980392156863
+        },
+        {
+          "hour": 10,
+          "total_shifts": 1,
+          "filled_shifts": 1,
+          "fill_rate": 100.0
+        },
+        {
+          "hour": 11,
+          "total_shifts": 722,
+          "filled_shifts": 80,
+          "fill_rate": 11.080332409972298
+        },
+        {
+          "hour": 12,
+          "total_shifts": 2957,
+          "filled_shifts": 275,
+          "fill_rate": 9.299966181941157
+        },
+        {
+          "hour": 13,
+          "total_shifts": 31073,
+          "filled_shifts": 1490,
+          "fill_rate": 4.795159785022367
+        },
+        {
+          "hour": 14,
+          "total_shifts": 46043,
+          "filled_shifts": 1985,
+          "fill_rate": 4.3111873683296045
+        },
+        {
+          "hour": 15,
+          "total_shifts": 11939,
+          "filled_shifts": 490,
+          "fill_rate": 4.104196331351035
+        },
+        {
+          "hour": 16,
+          "total_shifts": 1933,
+          "filled_shifts": 95,
+          "fill_rate": 4.914640455250905
+        },
+        {
+          "hour": 17,
+          "total_shifts": 666,
+          "filled_shifts": 36,
+          "fill_rate": 5.405405405405405
+        },
+        {
+          "hour": 18,
+          "total_shifts": 594,
+          "filled_shifts": 29,
+          "fill_rate": 4.882154882154882
+        },
+        {
+          "hour": 19,
+          "total_shifts": 684,
+          "filled_shifts": 59,
+          "fill_rate": 8.625730994152047
+        },
+        {
+          "hour": 20,
+          "total_shifts": 271,
+          "filled_shifts": 45,
+          "fill_rate": 16.605166051660518
+        },
+        {
+          "hour": 21,
+          "total_shifts": 34745,
+          "filled_shifts": 1269,
+          "fill_rate": 3.6523240754065336
+        },
+        {
+          "hour": 22,
+          "total_shifts": 56601,
+          "filled_shifts": 2777,
+          "fill_rate": 4.90627374074663
+        },
+        {
+          "hour": 23,
+          "total_shifts": 15698,
+          "filled_shifts": 664,
+          "fill_rate": 4.2298381959485285
+        }
+      ]
+    }
   }
 }

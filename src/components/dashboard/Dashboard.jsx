@@ -23,6 +23,7 @@ import PostingStrategies from "./workplace/PostingStrategies";
 import DurationImpact from "./shift/DurationImpact";
 import SlotPatterns from "./shift/SlotPatterns";
 import TimingAnalysis from "./shift/TimingAnalysis";
+import MarketDashboard from "./market/MarketDashboard";
 
 const Dashboard = () => {
   const [data, setData] = useState(null);
@@ -213,6 +214,11 @@ const Dashboard = () => {
           <SlotPatterns data={data.shift_analysis.slot_patterns} />
           <TimingAnalysis data={data.shift_analysis.timing_optimization} />
         </div>
+      )}
+
+      {/* Market Efficiency Section */}
+      {data.market_efficiency && (
+        <MarketDashboard data={data.market_efficiency} />
       )}
     </div>
   );
