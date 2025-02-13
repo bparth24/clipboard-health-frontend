@@ -9,20 +9,11 @@ import {
   Tooltip,
   ResponsiveContainer,
 } from "recharts";
-import LeadTimeAnalysis from "./temporal/LeadTimeAnalysis";
-import DayPatternAnalysis from "./temporal/DayPatternAnalysis";
-import SeasonalAnalysis from "./temporal/SeasonalAnalysis";
-import WorkerLoyalty from "./worker/WorkerLoyalty";
-import ShiftPreferences from "./worker/ShiftPreferences";
-import PriceElasticity from "./rate/PriceElasticity";
-import OptimalPricing from "./rate/OptimalPricing";
-import MarginAnalysis from "./rate/MarginAnalysis";
-import FacilitySuccessRates from "./workplace/FacilitySuccessRates";
-import CancellationPatterns from "./workplace/CancellationPatterns";
-import PostingStrategies from "./workplace/PostingStrategies";
-import DurationImpact from "./shift/DurationImpact";
-import SlotPatterns from "./shift/SlotPatterns";
-import TimingAnalysis from "./shift/TimingAnalysis";
+import WorkerDashboard from "./worker/WorkerDashboard";
+import WorkplaceDashboard from "./workplace/WorkplaceDashboard";
+import TemporalDashboard from "./temporal/TemporalDashboard";
+import RateDashboard from "./rate/RateDashboard";
+import ShiftDashboard from "./shift/ShiftDashboard";
 import MarketDashboard from "./market/MarketDashboard";
 import ReliabilityDashboard from "./reliability/ReliabilityDashboard";
 import GrowthDashboard from "./growth/GrowthDashboard";
@@ -136,87 +127,24 @@ const Dashboard = () => {
         </div>
       </div>
 
-      {/* Rate Analysis Section - if available in your data */}
-      {data.rate_analysis && (
-        <div
-          style={{
-            backgroundColor: "white",
-            padding: "20px",
-            borderRadius: "8px",
-            boxShadow: "0 1px 3px rgba(0,0,0,0.1)",
-          }}
-        >
-          <h2 style={{ marginBottom: "20px" }}>Rate Impact Analysis</h2>
-          <div style={{ height: "400px" }}>
-            <ResponsiveContainer width="100%" height="100%">
-              <BarChart
-                data={Object.entries(data.rate_analysis).map(
-                  ([bucket, metrics]) => ({
-                    name: bucket,
-                    claimRate: metrics.claim_rate,
-                    avgRate: metrics.avg_rate,
-                  })
-                )}
-              >
-                <CartesianGrid strokeDasharray="3 3" />
-                <XAxis dataKey="name" />
-                <YAxis />
-                <Tooltip />
-                <Bar dataKey="claimRate" fill="#82ca9d" name="Claim Rate %" />
-                <Bar dataKey="avgRate" fill="#8884d8" name="Average Rate" />
-              </BarChart>
-            </ResponsiveContainer>
-          </div>
-        </div>
+      {/* Worker Dashboard Section */}
+      {data.worker_analysis && <WorkerDashboard data={data.worker_analysis} />}
+
+      {/* Workplace Dashboard Section */}
+      {data.workplace_analysis && (
+        <WorkplaceDashboard data={data.workplace_analysis} />
       )}
-
-      {/* Temporal Analysis Section */}
-      <div style={{ marginTop: "40px" }}>
-        <h2 style={{ marginBottom: "20px" }}>Temporal Analysis</h2>
-
-        <LeadTimeAnalysis data={data.temporal_analysis.lead_time_analysis} />
-        <DayPatternAnalysis data={data.temporal_analysis.day_patterns} />
-        <SeasonalAnalysis data={data.temporal_analysis.seasonal_trends} />
-      </div>
-
-      {/* Worker Analysis Section */}
-      <div style={{ marginTop: "40px" }}>
-        <h2 style={{ marginBottom: "20px" }}>Worker Behavior Analysis</h2>
-
-        <WorkerLoyalty data={data.worker_analysis.loyalty_analysis} />
-        <ShiftPreferences data={data.worker_analysis.preferences} />
-      </div>
 
       {/* Rate Analysis Section */}
-      <div style={{ marginTop: "40px" }}>
-        <h2 style={{ marginBottom: "20px" }}>Rate Analysis</h2>
+      {data.rate_analysis && <RateDashboard data={data.rate_analysis} />}
 
-        <PriceElasticity data={data.rate_analysis.elasticity} />
-        <OptimalPricing data={data.rate_analysis.optimal_pricing} />
-        <MarginAnalysis data={data.rate_analysis.margins} />
-      </div>
-
-      {/* Workplace Analysis Section */}
-      <div style={{ marginTop: "40px" }}>
-        <h2 style={{ marginBottom: "20px" }}>Workplace Analysis</h2>
-
-        <FacilitySuccessRates data={data.workplace_analysis.success_rates} />
-        <CancellationPatterns data={data.workplace_analysis.cancellations} />
-        <PostingStrategies data={data.workplace_analysis.posting_strategies} />
-      </div>
+      {/* Temporal Analysis Section */}
+      {data.temporal_analysis && (
+        <TemporalDashboard data={data.temporal_analysis} />
+      )}
 
       {/* Shift Characteristics Section */}
-      {data?.shift_analysis && (
-        <div style={{ marginTop: "40px" }}>
-          <h2 style={{ marginBottom: "20px" }}>
-            Shift Characteristics Analysis
-          </h2>
-
-          <DurationImpact data={data.shift_analysis.duration_impact} />
-          <SlotPatterns data={data.shift_analysis.slot_patterns} />
-          <TimingAnalysis data={data.shift_analysis.timing_optimization} />
-        </div>
-      )}
+      {data.shift_analysis && <ShiftDashboard data={data.shift_analysis} />}
 
       {/* Market Efficiency Section */}
       {data.market_efficiency && (
