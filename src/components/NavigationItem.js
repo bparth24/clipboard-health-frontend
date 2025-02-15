@@ -6,6 +6,7 @@ const Navigation = () => {
 
     const navigationItems = [
         { to: "/", label: "Analysis Insights Overview" }, // Summary Page - Brief Writeup
+        { to: "/marketplace-performance", label: "Marketplace Performance Dashboard" },
         { to: "/master-dashboard", label: "Master Dashboard" },
         { to: "/worker-reliability-trust", label: "Worker Reliability Trust Analysis" },
         { to: "/urgent-shifts", label: "Urgent Shifts Analysis" },

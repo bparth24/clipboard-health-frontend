@@ -7,6 +7,7 @@ import {
     ErrorIndicator
 } from './utils/NavigationLogic';
 import AnalysisInsightsOverview from './components/AnalysisOverview';
+import MarketPlacePerformanceDashboard from './components/dashboards/MarketplacePerformanceDashboard';
 import Dashboard from './components/dashboards/MasterDashboard';
 import WorkerReliabilityTrustDashboard from './components/dashboards/WorkerReliabilityTrustDashboard';
 import UrgentShiftsDashboard from './components/dashboards/UrgentShiftsDashboard';
@@ -28,6 +29,10 @@ const AppRouter = () => {
                         <Route
                             path="/"
                             element={<AnalysisInsightsOverview />}
+                        />
+                        <Route
+                            path="/marketplace-performance"
+                            element={<MarketPlacePerformanceDashboard data={dashboardData} />}
                         />
                         <Route
                             path="/master-dashboard"

@@ -6,20 +6,24 @@ const AnalysisInsightsOverview = () => {
       title: "Executive Summary",
       content: (
         <p style={{ color: "#666", fontSize: "14px" }}>
-          This analysis highlights key drivers behind no-call no-shows (NCNS)
-          and cancellations in the Clipboard Health marketplace, identifies
-          workplace types with recurring issues, and proposes actionable
-          strategies to improve trust and reliability through pay rate
-          optimization, dynamic incentives, and transparency.
+          Analysis of the marketplace performance metrics reveals strong
+          operational reliability but highlights opportunities in initial
+          conversion rates. The marketplace shows excellent fulfillment rates
+          post-claim, with a 96.82% claim-to-verify rate, while maintaining low
+          cancellation (2.46%) and no-show (0.24%) rates.
           <br />
           <br />
           <b>Key Takeaways:</b>
           <ul style={{ marginTop: "10px" }}>
-            <li>Workers with higher pay rates have 15% fewer cancellations.</li>
             <li>
-              Late claims are most frequent for shifts starting between 5 AM–8
-              AM.
+              Night shifts (NOC) show highest claim rate at 5.97% despite lower
+              volume
             </li>
+            <li>
+              View-to-claim conversion at 4.91% indicates optimization
+              opportunity
+            </li>
+            <li>AM shifts command highest average pay rate at $24.49</li>
           </ul>
         </p>
       ),
@@ -29,10 +33,13 @@ const AnalysisInsightsOverview = () => {
       content: (
         <ul style={{ color: "#666", fontSize: "14px", paddingLeft: "20px" }}>
           <li>
-            Understand worker reliability trends (e.g., NCNS, punctuality).
+            Evaluate marketplace efficiency through conversion funnel metrics
           </li>
-          <li>Analyze the effectiveness of pay rates and incentives.</li>
-          <li>Identify opportunities for improving marketplace efficiency.</li>
+          <li>Analyze shift slot performance and worker preferences</li>
+          <li>
+            Assess the relationship between pay rates and shift fulfillment
+          </li>
+          <li>Identify opportunities for improving marketplace liquidity</li>
         </ul>
       ),
     },
@@ -40,10 +47,11 @@ const AnalysisInsightsOverview = () => {
       title: "Methodology",
       content: (
         <p style={{ color: "#666", fontSize: "14px" }}>
-          This analysis utilized Python and SQL to evaluate metrics such as NCNS
-          rates, average time to claim shifts, and cancellations. Data was
-          compared based on factors such as pay rate, shift time, and worker
-          reliability.
+          Analysis focused on key conversion metrics across the fulfillment
+          funnel: view-to-claim, claim-to-verify, and reliability metrics
+          (cancellations, no-shows). Data was segmented by shift slots (AM, PM,
+          NOC) to understand distribution patterns and compared against pay
+          rates to identify pricing effectiveness.
         </p>
       ),
     },
@@ -52,13 +60,19 @@ const AnalysisInsightsOverview = () => {
       content: (
         <ul style={{ color: "#666", fontSize: "14px", paddingLeft: "20px" }}>
           <li>
-            Workers with low pay rates (&lt;$20/hour) account for 60% of NCNS
-            incidents.
+            PM shifts have highest volume (114,368 views) but lowest claim rate
+            (4.59%)
           </li>
-          <li>Cancellations are 30% more frequent for weekend shifts.</li>
           <li>
-            Morning shifts (5–8 AM) have the highest rate of late arrivals
-            (25%).
+            NOC shifts demonstrate strongest worker engagement despite lower
+            volume
+          </li>
+          <li>
+            Pay rate variation across slots is minimal (range: $23.83 - $24.49)
+          </li>
+          <li>
+            Post-claim reliability metrics show strong marketplace health
+            (96.82% verification rate)
           </li>
         </ul>
       ),
@@ -68,14 +82,20 @@ const AnalysisInsightsOverview = () => {
       content: (
         <ul style={{ color: "#666", fontSize: "14px", paddingLeft: "20px" }}>
           <li>
-            Introduce dynamic pay incentives for hard-to-fill or last-minute
-            shifts.
+            Implement targeted rate adjustments for PM shifts to improve claim
+            rates
           </li>
           <li>
-            Track worker reliability metrics over time to reward top performers.
+            Study NOC shift success factors for potential application to other
+            slots
           </li>
           <li>
-            Focus on improving weekend and early-morning shift reliability.
+            Enhance shift presentation and targeting to improve view-to-claim
+            conversion
+          </li>
+          <li>
+            Consider dynamic pricing strategies to better balance supply across
+            slots
           </li>
         </ul>
       ),
@@ -133,94 +153,79 @@ const AnalysisInsightsOverview = () => {
 
 export default AnalysisInsightsOverview;
 
-// import React from "react";
+// Reference:
 
-// const AnalysisInsightsOverview = () => {
-//   const insights = [
-//     {
-//       title: "Overall Worker Performance",
-//       description:
-//         "Analyze trends and patterns in worker performance over time. Identify key areas of improvement and top-performing workers.",
-//     },
-//     {
-//       title: "Reliability Metrics",
-//       description:
-//         "Gain insights into reliability metrics, including attendance rates, punctuality, and consistency in task completion.",
-//     },
-//     {
-//       title: "Shift Optimization",
-//       description:
-//         "Understand shift patterns and worker availability to optimize scheduling and improve workforce efficiency.",
-//     },
-//     {
-//       title: "Customized Reporting",
-//       description:
-//         "Generate custom reports based on specific metrics and KPIs tailored to your business needs.",
-//     },
-//   ];
-
-//   return (
-//     <div
-//       style={{
-//         backgroundColor: "white",
-//         padding: "20px",
-//         borderRadius: "8px",
-//         boxShadow: "0 1px 3px rgba(0,0,0,0.1)",
-//         marginBottom: "20px",
-//       }}
-//     >
-//       {/* Header Section */}
-//       <h2 style={{ marginBottom: "20px" }}>Analysis Insights Overview</h2>
-//       <p style={{ marginBottom: "30px", color: "#666" }}>
-//         Explore actionable insights to make data-driven decisions and improve
-//         overall efficiency.
+// const sections = [
+//   {
+//     title: "Executive Summary",
+//     content: (
+//       <p style={{ color: "#666", fontSize: "14px" }}>
+//         This analysis highlights key drivers behind no-call no-shows (NCNS) and
+//         cancellations in the Clipboard Health marketplace, identifies workplace
+//         types with recurring issues, and proposes actionable strategies to
+//         improve trust and reliability through pay rate optimization, dynamic
+//         incentives, and transparency.
+//         <br />
+//         <br />
+//         <b>Key Takeaways:</b>
+//         <ul style={{ marginTop: "10px" }}>
+//           <li>Workers with higher pay rates have 15% fewer cancellations.</li>
+//           <li>
+//             Late claims are most frequent for shifts starting between 5 AM–8 AM.
+//           </li>
+//         </ul>
 //       </p>
-
-//       {/* Insights Grid */}
-//       <div
-//         style={{
-//           display: "grid",
-//           gridTemplateColumns: "repeat(auto-fit, minmax(200px, 1fr))",
-//           gap: "15px",
-//         }}
-//       >
-//         {insights.map((insight, index) => (
-//           <div
-//             key={index}
-//             style={{
-//               backgroundColor: "#f8f9fa",
-//               padding: "15px",
-//               borderRadius: "6px",
-//               boxShadow: "0 1px 3px rgba(0,0,0,0.1)",
-//               transition: "transform 0.2s ease, box-shadow 0.2s ease",
-//             }}
-//             onMouseEnter={(e) => {
-//               e.currentTarget.style.transform = "scale(1.02)";
-//               e.currentTarget.style.boxShadow = "0 4px 6px rgba(0,0,0,0.1)";
-//             }}
-//             onMouseLeave={(e) => {
-//               e.currentTarget.style.transform = "scale(1)";
-//               e.currentTarget.style.boxShadow = "0 1px 3px rgba(0,0,0,0.1)";
-//             }}
-//           >
-//             <h3
-//               style={{
-//                 fontSize: "16px",
-//                 fontWeight: "600",
-//                 color: "#333",
-//                 marginBottom: "10px",
-//               }}
-//             >
-//               {insight.title}
-//             </h3>
-//             <p style={{ fontSize: "14px", color: "#666" }}>
-//               {insight.description}
-//             </p>
-//           </div>
-//         ))}
-//       </div>
-//     </div>
-//   );
-// };
-
-// export default AnalysisInsightsOverview;
+//     ),
+//   },
+//   {
+//     title: "Objectives of Analysis",
+//     content: (
+//       <ul style={{ color: "#666", fontSize: "14px", paddingLeft: "20px" }}>
+//         <li>Understand worker reliability trends (e.g., NCNS, punctuality).</li>
+//         <li>Analyze the effectiveness of pay rates and incentives.</li>
+//         <li>Identify opportunities for improving marketplace efficiency.</li>
+//       </ul>
+//     ),
+//   },
+//   {
+//     title: "Methodology",
+//     content: (
+//       <p style={{ color: "#666", fontSize: "14px" }}>
+//         This analysis utilized Python and SQL to evaluate metrics such as NCNS
+//         rates, average time to claim shifts, and cancellations. Data was
+//         compared based on factors such as pay rate, shift time, and worker
+//         reliability.
+//       </p>
+//     ),
+//   },
+//   {
+//     title: "Key Insights & Findings",
+//     content: (
+//       <ul style={{ color: "#666", fontSize: "14px", paddingLeft: "20px" }}>
+//         <li>
+//           Workers with low pay rates (&lt;$20/hour) account for 60% of NCNS
+//           incidents.
+//         </li>
+//         <li>Cancellations are 30% more frequent for weekend shifts.</li>
+//         <li>
+//           Morning shifts (5–8 AM) have the highest rate of late arrivals (25%).
+//         </li>
+//       </ul>
+//     ),
+//   },
+//   {
+//     title: "Recommendations",
+//     content: (
+//       <ul style={{ color: "#666", fontSize: "14px", paddingLeft: "20px" }}>
+//         <li>
+//           Introduce dynamic pay incentives for hard-to-fill or last-minute
+//           shifts.
+//         </li>
+//         <li>
+//           Track worker reliability metrics over time to reward top performers.
+//         </li>
+//         <li>Focus on improving weekend and early-morning shift reliability.</li>
+//       </ul>
+//     ),
+//   },
+// ];
