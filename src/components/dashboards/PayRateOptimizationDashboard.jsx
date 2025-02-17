@@ -544,27 +544,6 @@ const PayRateOptimizationDashboard = ({ data }) => {
             </ul>
           </AnalysisSection>
 
-          <AnalysisSection title="Reliability Metrics">
-            <ul style={{ paddingLeft: "24px", marginTop: "8px" }}>
-              <li style={{ marginBottom: "12px" }}>
-                <strong>NCNS Distribution:</strong> Overall very low NCNS rates
-                across pay bands, with Medium tier at 0.019%, followed by High
-                (0.013%), Very High (0.011%), and lowest rates in Very Low/Low
-                tiers (0.007%)
-              </li>
-              <li style={{ marginBottom: "12px" }}>
-                <strong>Impact Assessment:</strong> No clear linear relationship
-                between pay rates and NCNS behavior, suggesting other factors
-                may be more influential in preventing no-shows
-              </li>
-              <li style={{ marginBottom: "12px" }}>
-                <strong>Risk Factors:</strong> Given uniformly low NCNS rates,
-                focus should be on maintaining current reliability standards
-                rather than pay rate adjustments for NCNS prevention
-              </li>
-            </ul>
-          </AnalysisSection>
-
           <AnalysisSection title="Completion Rate Analysis">
             <ul style={{ paddingLeft: "24px", marginTop: "8px" }}>
               <li style={{ marginBottom: "12px" }}>
