@@ -8,7 +8,8 @@ export const useDataFetching = () => {
     useEffect(() => {
         const fetchData = async () => {
             try {
-                const response = await fetch('/data/dashboard_data.json');
+                const baseUrl = process.env.PUBLIC_URL || '';
+                const response = await fetch(`${baseUrl}/data/dashboard_data.json`);
                 if (!response.ok) {
                     throw new Error(`HTTP error! status: ${response.status}`);
                 }

@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from "react";
+import React, { useState } from "react";
 import {
   BarChart,
   Bar,
@@ -37,39 +37,8 @@ const AnalysisSection = ({ title, children }) => (
   </div>
 );
 
-const WorkerReliabilityTrustAnalysis = () => {
-  const [data, setData] = useState(null);
-  const [loading, setLoading] = useState(true);
-  const [error, setError] = useState(null);
+const WorkerReliabilityTrustAnalysis = ({ data }) => {
   const [isAnalysisPanelOpen, setIsAnalysisPanelOpen] = useState(false);
-
-  useEffect(() => {
-    const fetchData = async () => {
-      try {
-        const response = await fetch("/data/dashboard_data.json");
-        if (!response.ok) {
-          throw new Error("Failed to fetch data");
-        }
-        const jsonData = await response.json();
-        setData(jsonData);
-      } catch (err) {
-        console.error("Error loading data:", err);
-        setError(err.message);
-      } finally {
-        setLoading(false);
-      }
-    };
-
-    fetchData();
-  }, []);
-
-  if (loading) {
-    return <div style={{ padding: "20px" }}>Loading dashboard data...</div>;
-  }
-
-  if (error) {
-    return <div style={{ padding: "20px", color: "red" }}>Error: {error}</div>;
-  }
 
   if (!data || !data.worker_reliability_trust_analysis) {
     return (
