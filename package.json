@@ -2,7 +2,7 @@
   "name": "clipboard-health-frontend",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://bparth24.github.io/clipboard-health-frontend/#/",
+  "homepage": "https://bparth24.github.io/clipboard-health-frontend/",
   "dependencies": {
     "cra-template": "1.2.0",
     "lucide-react": "^0.475.0",
