@@ -53,19 +53,20 @@ const Dashboard = () => {
   }
 
   // Transform slot metrics for chart
-  const slotChartData = Object.entries(data.slot_metrics).map(
-    ([slot, metrics]) => ({
-      name: slot.toUpperCase(),
-      views: metrics.total_views,
-      claimRate: metrics.claim_rate,
-    })
-  );
+  // const slotChartData = Object.entries(data.slot_metrics).map(
+  //   ([slot, metrics]) => ({
+  //     name: slot.toUpperCase(),
+  //     views: metrics.total_views,
+  //     claimRate: metrics.claim_rate,
+  //   })
+  // );
 
   return (
     <div style={{ padding: "20px", maxWidth: "1200px", margin: "0 auto" }}>
       <h1 style={{ marginBottom: "20px" }}>Marketplace Analytics Dashboard</h1>
 
-      {/* Funnel Metrics */}
+      {/* Funnel Metrics are covered in MarketPlace Performance Dashboard */}
+      {/* Funnel Metrics   */}
       <div
         style={{
           display: "grid",
@@ -92,7 +93,7 @@ const Dashboard = () => {
       </div>
 
       {/* Slot Distribution Chart */}
-      <div
+      {/* <div
         style={{
           backgroundColor: "white",
           padding: "20px",
@@ -125,7 +126,7 @@ const Dashboard = () => {
             </BarChart>
           </ResponsiveContainer>
         </div>
-      </div>
+      </div> */}
 
       {/* Worker Dashboard Section */}
       {data.worker_analysis && <WorkerDashboard data={data.worker_analysis} />}

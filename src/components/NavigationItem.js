@@ -7,11 +7,11 @@ const Navigation = () => {
     const navigationItems = [
         { to: "/", label: "Analysis Insights Overview" }, // Summary Page - Brief Writeup
         { to: "/marketplace-performance", label: "Marketplace Performance Dashboard" },
-        { to: "/master-dashboard", label: "Master Dashboard" },
+        { to: "/marketplace-efficiency", label: "Marketplace Efficiency Analysis" },
         { to: "/worker-reliability-trust", label: "Worker Reliability Trust Analysis" },
         { to: "/urgent-shifts", label: "Urgent Shifts Analysis" },
         { to: "/pay-rate-optimization", label: "Pay Rate Optimization Analysis" },
-        { to: "/marketplace-efficiency", label: "Marketplace Efficiency Analysis" },
+        { to: "/growth-dashboard", label: "Growth Analysis" },
     ];
 
     return (

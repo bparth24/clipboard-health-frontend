@@ -1,6 +1,6 @@
 import React from "react";
 import TimeToFillAnalysis from "./TimeToFill";
-import ConversionFunnel from "./ConversionFunnel";
+// import ConversionFunnel from "./ConversionFunnel";
 import MarketLiquidity from "./MarketLiquidity";
 
 const MarketDashboard = ({ data }) => {
@@ -9,7 +9,7 @@ const MarketDashboard = ({ data }) => {
   return (
     <div className="space-y-6">
       <TimeToFillAnalysis data={data.time_to_fill} />
-      <ConversionFunnel data={data.conversion_funnel} />
+      {/* <ConversionFunnel data={data.conversion_funnel} /> */}
       <MarketLiquidity data={data.market_liquidity} />
     </div>
   );
