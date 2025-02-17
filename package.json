@@ -2,6 +2,7 @@
   "name": "clipboard-health-frontend",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://bparth24.github.io/clipboard-health-frontend/#/",
   "dependencies": {
     "cra-template": "1.2.0",
     "lucide-react": "^0.475.0",
@@ -16,7 +17,9 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -b refactor-cleanup -d build"
   },
   "eslintConfig": {
     "extends": [
@@ -37,6 +40,7 @@
     ]
   },
   "devDependencies": {
-    "@babel/plugin-proposal-private-property-in-object": "^7.21.11"
+    "@babel/plugin-proposal-private-property-in-object": "^7.21.11",
+    "gh-pages": "^6.3.0"
   }
 }
