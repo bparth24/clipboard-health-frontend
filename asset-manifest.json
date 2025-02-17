@@ -1,0 +1,10 @@
+{
+  "files": {
+    "main.js": "/clipboard-health-frontend/static/js/main.f0e5e9b8.js",
+    "index.html": "/clipboard-health-frontend/index.html",
+    "main.f0e5e9b8.js.map": "/clipboard-health-frontend/static/js/main.f0e5e9b8.js.map"
+  },
+  "entrypoints": [
+    "static/js/main.f0e5e9b8.js"
+  ]
+}
