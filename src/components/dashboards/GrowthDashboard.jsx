@@ -187,6 +187,7 @@ const SupplyDemandSection = ({ data }) => {
                 value: "Total Shifts",
                 angle: -90,
                 position: "insideLeft",
+                dx: -5, // Adjust text position horizontally
               }}
             />
             <YAxis

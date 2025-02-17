@@ -22,12 +22,26 @@ const Navigation = () => {
                 borderRadius: "12px",
                 boxShadow: "0 1px 3px rgba(0,0,0,0.1)",
                 marginBottom: "20px",
+                display: "flex",
+                alignItems: "center",
+                justifyContent: "flex-start",
             }}
         >
             <div
                 style={{
-                    display: "grid",
-                    gridTemplateColumns: "repeat(auto-fit, minmax(200px, 1fr))",
+                    display: "flex",
+                    alignItems: "center",
+                }}
+            >
+                <img
+                    src="https://cdn.prod.website-files.com/6331fdb067d0d2e7fcce41d8/63d7e4dcc375a62efe51e399_bunnylogo.png"
+                    alt="Logo"
+                    style={{ height: "40px", marginRight: "100px" }}
+                />
+            </div>
+            <div
+                style={{
+                    display: "flex",
                     gap: "15px",
                 }}
             >
@@ -36,8 +50,7 @@ const Navigation = () => {
                         key={item.to}
                         to={item.to}
                         style={{
-                            display: "block",
-                            padding: "15px",
+                            padding: "10px 15px",
                             backgroundColor:
                                 location.pathname === item.to ? "#4F46E5" : "#f8f9fa",
                             color: location.pathname === item.to ? "white" : "#333",
